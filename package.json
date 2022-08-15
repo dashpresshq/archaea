@@ -1,5 +1,5 @@
 {
-  "name": "archaea",
+  "name": "@adminator/archaea",
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
