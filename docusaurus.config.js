@@ -59,7 +59,7 @@ const config = {
         title: "Adminator",
         logo: {
           alt: "Adminator Logo",
-          src: "img/logo.svg",
+          src: "img/logo.png",
         },
         items: [
           {
