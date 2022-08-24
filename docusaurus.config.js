@@ -6,17 +6,17 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "Adminator",
+  title: "Hadmean",
   tagline: "Dinosaurs are cool",
-  url: "https://adminator.com",
+  url: "https://hadmean.com",
   baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.ico",
 
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: "adminatorhq",
-  projectName: "adminator",
+  organizationName: "hadmean",
+  projectName: "hadmean",
 
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
@@ -56,9 +56,9 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: "Adminator",
+        title: "Hadmean",
         logo: {
-          alt: "Adminator Logo",
+          alt: "Hadmean Logo",
           src: "img/logo.png",
         },
         items: [
@@ -70,7 +70,7 @@ const config = {
           },
           { to: "/blog", label: "Blog", position: "left" },
           {
-            href: "https://github.com/adminatorhq/adminator",
+            href: "https://github.com/hadmean/hadmean",
             label: "GitHub",
             position: "right",
           },
@@ -93,15 +93,15 @@ const config = {
             items: [
               {
                 label: "Stack Overflow",
-                href: "https://stackoverflow.com/questions/tagged/adminator",
+                href: "https://stackoverflow.com/questions/tagged/hadmean",
               },
               {
                 label: "Discord",
-                href: "https://discordapp.com/invite/adminatorhq",
+                href: "https://discordapp.com/invite/hadmean",
               },
               {
                 label: "Twitter",
-                href: "https://twitter.com/adminatorhq",
+                href: "https://twitter.com/hadmean",
               },
             ],
           },
@@ -114,12 +114,12 @@ const config = {
               },
               {
                 label: "GitHub",
-                href: "https://github.com/adminatorhq/adminator",
+                href: "https://github.com/hadmean/hadmean",
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Adminator, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Hadmean, Inc. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,

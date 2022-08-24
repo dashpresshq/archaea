@@ -1,6 +1,6 @@
 # Archea
 
-Documentation for Adminator
+Documentation for Hadmean
 
 ### Installation
 
