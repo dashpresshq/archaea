@@ -2,46 +2,30 @@
 sidebar_position: 0
 ---
 
-# Tutorial Intro
+# Introduction
 
-Let's discover **Docusaurus in less than 5 minutes**.
+Hadmean is a open-source internal tool generator that build itself based on your database schema and your configurations. It is all batteries included and extremely customizable
 
-## Getting Started
 
-Get started by **creating a new site**.
+## What
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+Building admin interface is a mostly a chore for developers and we tend to find the easiest way to build them and sometimes delegating it to the juniors of the teams
 
-### What you'll need
+Hadmean sets up you admin interface literally how fast you can type you DB credentials and `npx hadmean@latest`
 
-- [Node.js](https://nodejs.org/en/download/) version 16.14 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+It a no-code tool which gives you the reigns when your requirement are very unique so it also highly customization 
 
-## Generate a new site
+# Why
+There are plenty admin project out there both Free and Fremium/Paid
 
-Generate a new Docusaurus site using the **classic template**.
+The free and good ones are usually tied to a framework and all your experience with it are useless when you hop to your next shiny language. They are usually not asthetically pleasing and always require a developer to make any change
 
-The classic template will automatically be added to your project after you run the command:
+The Fremium/Paid ones are usually good but very restricted as the free version are usually demo plans for you to get a taste of what they can do and you will have to get to the paywall to get to be usable for your day to day
 
-```bash
-npm init docusaurus@latest my-website classic
-```
+# How
 
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
+We believe you database information should be the golden truth of your application, As such we read your database relations, tables constraints, fields constraint, enums etc and implemented all that information in the UI without an input from you
 
-The command also installs all necessary dependencies you need to run Docusaurus.
+Most admin generators pride themselves on their powerful drag and drop system which is actually great as it allows for great customization but it makes developers have an extra place to update business requirement and work to keep them in sync
 
-## Start your site
-
-Run the development server:
-
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+Hadmean might get to a drag-and-drop system in the future but for now we want to ride this database idealogy for as long as we can

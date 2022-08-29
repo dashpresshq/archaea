@@ -2,7 +2,6 @@
 sidebar_position: 1
 ---
 
-# Encryption
+# Encryption at Rest
 
-You have just learned the **basics of Docusaurus** and made some changes to the 
-**initial template**.
+All credentials provided in the application are encrypted at rest using `aes-256-gcm` with the `ENCRYPTION_KEY` in your `.env`
