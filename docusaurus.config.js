@@ -14,7 +14,6 @@ const config = {
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.ico",
 
-  // If you aren't using GitHub pages, you don't need these.
   organizationName: "hadmean",
   projectName: "hadmean",
 
@@ -51,7 +50,6 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: "Hadmean",
         logo: {
           alt: "Hadmean Logo",
           src: "img/logo.png",
@@ -103,10 +101,6 @@ const config = {
           {
             title: "More",
             items: [
-              {
-                label: "Blog",
-                to: "/blog",
-              },
               {
                 label: "GitHub",
                 href: "https://github.com/hadmean/hadmean",

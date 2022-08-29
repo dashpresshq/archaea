@@ -15,14 +15,14 @@ Hadmean sets up you admin interface literally how fast you can type you DB crede
 
 It a no-code tool which gives you the reigns when your requirement are very unique so it also highly customization 
 
-# Why
+## Why
 There are plenty admin project out there both Free and Fremium/Paid
 
 The free and good ones are usually tied to a framework and all your experience with it are useless when you hop to your next shiny language. They are usually not asthetically pleasing and always require a developer to make any change
 
 The Fremium/Paid ones are usually good but very restricted as the free version are usually demo plans for you to get a taste of what they can do and you will have to get to the paywall to get to be usable for your day to day
 
-# How
+## How
 
 We believe you database information should be the golden truth of your application, As such we read your database relations, tables constraints, fields constraint, enums etc and implemented all that information in the UI without an input from you
 
