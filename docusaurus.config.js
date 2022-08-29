@@ -7,7 +7,8 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: "Hadmean",
-  tagline: "Super Admin",
+  tagline:
+    "Your agnostic, powerful, one-line install, customizable, all batteries included and free admin apps generator",
   url: "https://hadmean.github.io",
   baseUrl: "/hadmean/",
   onBrokenLinks: "throw",

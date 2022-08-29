@@ -8,7 +8,6 @@ Hadmean is a open-source internal tool generator that build itself based on your
 
 
 ## What
-
 Building admin apps is a mostly a chore for developers and we tend to find the easiest way to build them and sometimes delegating it to the juniors of the teams
 
 Hadmean sets up you admin interface literally how fast you can type you DB credentials and `npx hadmean@latest`
