@@ -24,21 +24,25 @@ FORCE_INTROSPECTION=TRUE
 This settings are good for most production use-cases but lets give you some details in the case your use case doesn't fall in the most
 
 ## CONFIG_ADAPTOR
-Hadmean needs to store a lot of things like your `aes-256-gcm` encrypted database credentials, application users, app configuration etc
+Hadmean needs to store a lot of things like your `aes-256-gcm` encrypted database credentials, application users, custom roles, app configuration etc
 
 `CONFIG_ADAPTOR` tells Hadmean how to store this information, The options for you here are
 
  - `json-file` - Good for production cases but best for development
  - `database` - Best for production cases
  - `memory` - Only good for unit testing purposes
- - `redis` - Good for production cases
+ - `redis` - Good for production cases as well
 
-For most production use-cases we will encourage changing this to `database` or `redis`. But we believe you will make the best decision for your needs
+:::info
+For most production use-cases we will encourage changing this to `database` or `redis`.
+:::
 
 ## CONFIG_ADAPTOR_CONNECTION_STRING
 If you choose `database` or `redis` in the option above then you will need to provide the credentials to it with this. It takes in the connection string of the resource
 
-Note that using `json-file` creates a folder `.config-data` in your project folder so it will have to be moved everywhere you want to restore the project
+:::info
+Using `json-file` creates a folder `.config-data` in your project folder so it will have to be moved everywhere you want to restore the project
+:::
 
 :::caution
 Editing your configuration data manually especially for `json-file` configuration can result in configuration loss if the JSON is malformed, So edit it at your risk
@@ -49,7 +53,7 @@ Not setting this value when required will cause your application not to start as
 :::
 
 ## CACHE_ADAPTOR
-There are some expensive/too frequent operations we do regular in the backend so to speed things up, we cache these operations so that we dont do it again after the first time
+There are some expensive/too frequent operations we do regularly in the backend so to speed things up, we cache these operations so that we dont do it again after the first time
 
 The default value of `memory` is good for all use-cases except when you are running multiple instances of Hadmean, so the data needs to be synced in the other instances
 
