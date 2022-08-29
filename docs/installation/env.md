@@ -6,7 +6,7 @@ sidebar_position: 3
 
 Running the `npx hadmean@latest` command for the first time on a project will generate a `.env` file there which will look like this
 
-```bash
+```bash title=".env.local"
 CONFIG_ADAPTOR=json-file
 CONFIG_ADAPTOR_CONNECTION_STRING=PLACE_HOLDER_CONFIG_ADAPTOR_CONNECTION_STRING
 
