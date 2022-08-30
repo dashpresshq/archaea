@@ -45,6 +45,9 @@ Hadmean is built for internal use, It is not built for end-users but rather inte
 ### Hadmean is not your API backend
 Hadmean will also not expose a method to extend the backend. i.e you will not be able to create a new API route with it, meaning if you need to have an hooks for other endpoint then you will have to create your server elsewhere, The primary reason is to nimble with our APIs we want to be able to re-write our APIs without any notice and expose it ties us down. This is intentional because we just want to scope Hadmean to just admin use
 
+### Hadmean is not your CMS
+Hadmean will also not expose a method to extend the backend. i.e you will not be able to create a new API route with it, meaning if you need to have an hooks for other endpoint then you will have to create your server elsewhere, The primary reason is to nimble with our APIs we want to be able to re-write our APIs without any notice and expose it ties us down. This is intentional because we just want to scope Hadmean to just admin use
+
 :::info
 This is intentional because we just want to scope Hadmean to just admin use
 :::
