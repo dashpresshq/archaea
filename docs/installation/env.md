@@ -37,6 +37,10 @@ Hadmean needs to store a lot of things like your `aes-256-gcm` encrypted databas
 For most production use-cases we will encourage changing this to `database` or `redis`.
 :::
 
+:::warning
+ We don't encourage switching adaptors so we don't plan to have an adaptor migration script, You will have to do it yourself
+:::
+
 ## CONFIG_ADAPTOR_CONNECTION_STRING
 If you choose `database` or `redis` in the option above then you will need to provide the credentials to it with this. It takes in the connection string of the resource
 
