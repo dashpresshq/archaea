@@ -10,7 +10,7 @@ Hadmean is an open-source internal tool generator that builds itself based on yo
 ## What
 Building admin apps is mostly a chore for developers and we tend to find the easiest way to build them, sometimes delegating it to the juniors of the teams
 
-Hadmean sets up your admin interface literally as fast as you can type your DB credentials and `npx hadmean@latest`
+Hadmean sets up your admin interface as fast as you can type your DB credentials and `npx hadmean@latest`
 
 It is a no-code tool that gives you the reigns when your requirements are very unique. So it is highly customizable.
 
@@ -34,7 +34,7 @@ Hadmean might get to a drag-and-drop system in the future but for now, we want t
 ## Not
 
 ### API generator
-The APIs produced by Hadmean are for their internal use, It is not designed to be used by other clients. There are plenty of good tools out there already building APIs and we don't have anything we feel can be improved, There will be no support for any unintentional API usage, they will not be documented and they can/will change without notice. This is intentional because we just want to scope Hadmean to just admin use.
+The APIs produced by Hadmean are for its internal use, It is not designed to be used by other clients. There are plenty of good tools out there already building APIs and we don't have anything we feel can be improved, There will be no support for any unintentional API usage, they will not be documented and they can/will change without notice. This is intentional because we just want to scope Hadmean to just admin use.
 
 ### Database client
 Hadmean will not and will never have an interface to change the structure of your database. This is intentional because we just want to scope Hadmean to just admin use.

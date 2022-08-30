@@ -21,7 +21,7 @@ TOKEN_VALIDITY_DURATION_IN_DAYS=14
 FORCE_INTROSPECTION=TRUE
 ```
 
-These settings are good for most production use-cases but lets explain them so you make better decision based on your needs
+These settings are good for most production use-cases but let's give details so you make better decisions based on your needs
 
 ## CONFIG_ADAPTOR
 Hadmean needs to store a lot of things like your `aes-256-gcm` encrypted database credentials, application users, custom roles, app configuration etc
@@ -53,7 +53,7 @@ Editing your configuration data manually, especially for `json-file`` configurat
 :::
 
 :::warning
-Not setting this value when required will cause your application not to start as Hadmean can't set/read it settings
+Not setting this value when required will cause your application not to start as Hadmean can't set/read its settings
 :::
 
 ## CACHE_ADAPTOR

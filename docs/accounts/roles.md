@@ -1,5 +1,5 @@
 ---
-sidebar_position: 4
+sidebar_position: 1
 ---
 
 # Roles and Permissions
@@ -30,4 +30,6 @@ From the UI you can easily add as many roles as you can and assign as many permi
 
 `CAN_ACCESS_ALL_ENTITIES` Allows user access to present and future entities
 
-`CAN_ACCESS_ENTITY:<YOUR_ENTITY>`: Allowes user only access to the entity. Make sure you remove the `CAN_ACCESS_ALL_ENTITIES` permission
+`CAN_ACCESS_ENTITY:<YOUR_ENTITY>`: Allows access to only that entity.
+
+Make sure you remove the `CAN_ACCESS_ALL_ENTITIES` permission
