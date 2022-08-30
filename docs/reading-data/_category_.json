@@ -1,8 +1,0 @@
-{
-  "label": "Data Display",
-  "position": 4,
-  "link": {
-    "type": "generated-index",
-    "description": "Control how users see and interact with your data"
-  }
-}

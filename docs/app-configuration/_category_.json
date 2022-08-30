@@ -1,0 +1,8 @@
+{
+  "label": "App configuration",
+  "position": 3,
+  "link": {
+    "type": "generated-index",
+    "description": "How to tailor Hadmean to your requirements. Read this section to only know what Hadmean can do. Hadmean will always provide links here when you get to the UI for it"
+  }
+}
