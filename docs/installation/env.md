@@ -40,9 +40,9 @@ For most production use-cases we will encourage changing this to `database` or `
 ## CONFIG_ADAPTOR_CONNECTION_STRING
 If you choose `database` or `redis` in the option above then you will need to provide the credentials to it with this. It takes in the connection string of the resource
 
-:::info
+All database tables will be created automatically and prefix with `hadmean__`
+
 Using `json-file` creates a folder `.config-data` in your project folder so it will have to be moved everywhere you want to restore the project
-:::
 
 :::caution
 Editing your configuration data manually especially for `json-file` configuration can result in configuration loss if the JSON is malformed, So edit it at your risk
