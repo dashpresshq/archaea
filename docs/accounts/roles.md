@@ -21,8 +21,13 @@ From the UI you can easily add as much roles as you can and assign as much permi
 
 # Permissions 
 `CAN_CONFIGURE_APP` gives users access the app configuration menu
+
 `CAN_RESET_PASSWORD` allows user reset passwords
+
 `CAN_MANAGE_PERMISSIONS` allows users to manage roles and permissions
+
 `CAN_MANAGE_USER` will allow users to CRUD users
+
 `CAN_ACCESS_ALL_ENTITIES` Allows user access present and future entities
+
 `CAN_ACCESS_ENTITY:<YOUR_ENTITY>`: Allowes user only access to the entity. Make sure you remove the `CAN_ACCESS_ALL_ENTITIES` permission
