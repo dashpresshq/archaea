@@ -29,4 +29,22 @@ We believe your database information should be the golden truth of your applicat
 
 Most admin generators pride themselves on their powerful drag and drop system which is actually great as it allows for great customization but it makes developers have an extra place to update business requirement and work to keep them in sync
 
-Hadmean might get to a drag-and-drop system in the future but for now we want to ride this database idealogy for as long as we can.
+Hadmean might get to a drag-and-drop system in the future but for now we want to ride this database idealogy for as long as we can
+
+## Not
+
+### Hadmean is not an API generator
+The APIs produced by Hadmean are for its internal use, It is not designed to be used by other clients. There are plenty good tools out there alreading building APIs and we dont have any thing we feel can be improved, There will be no support for any unintentional API usage, they will not documented and they can/will change without notice. This is intentional because we just want to scope Hadmean to just admin use.
+
+### Hadmean is not a database client
+Hadmean will not and will never have an interface to change the structure of your database. This is intentional because we just want to scope Hadmean to just admin use.
+
+### Hadmean is not a web builder
+Hadmean is built for internal use, It is not built for end-users but rather internal users, This means no fancy editor to add a class to every element, No template for headers, footers, No page creator etc. This is intentional because we just want to scope Hadmean to just admin use.
+
+### Hadmean is not your API backend
+Hadmean will also not expose a method to extend the backend. i.e you will not be able to create a new API route with it, meaning if you need to have an hooks for other endpoint then you will have to create your server elsewhere, The primary reason is to nimble with our APIs we want to be able to re-write our APIs without any notice and expose it ties us down. This is intentional because we just want to scope Hadmean to just admin use
+
+:::info
+This is intentional because we just want to scope Hadmean to just admin use
+:::
