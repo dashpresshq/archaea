@@ -24,7 +24,7 @@ If running this for the first time for a project, You will be asked to provide y
 
 ![Setup Credentials](./img/setup-credentials.png)
 
-Afterwards, You will be asked to create your root admin account which will have all the permissions to adminstrate the app
+Afterward, You will be asked to create your root admin account which will have all the permissions to administrate the app
 
 ![Setup Admin Account](./img/setup-admin.png)
 
@@ -39,4 +39,4 @@ And you are done with the setup!
  Running the application for the project is still as simple as running `npx hadmean@latest` in the same folder, There is no other command
 :::
 
-As you can see the setup was quite easy and as you might as guessed, there are some magic going on behind the scenes primarily with `.env`. It will be detailed in the next section so that you can edit it to your requirement.
+As you can see the setup was quite easy and as you might as guessed, there is some magic going on behind the scenes primarily with `.env`. It will be detailed in the next section so that you can edit it to your requirement.
