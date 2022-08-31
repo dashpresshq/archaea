@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
-# Security Features
+# Security Implementations
 
 ## SSL
 :::info
