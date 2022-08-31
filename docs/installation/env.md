@@ -15,10 +15,6 @@ CONFIG_CACHE_CONNECTION_STRING=PLACE_HOLDER_CONFIG_CACHE_CONNECTION_STRING
 
 ENCRYPTION_KEY=<SOME_RANDOM_STRING>
 AUTH_TOKEN_KEY=<SOME_RANDOM_STRING>
-
-TOKEN_VALIDITY_DURATION_IN_DAYS=14
-
-FORCE_INTROSPECTION=TRUE
 ```
 
 These settings are good for most production use-cases but let's give details so you make better decisions based on your needs
@@ -74,18 +70,3 @@ So also with your authentication key so that we encode your auth tokens securely
 As you may have seen, Hadmean generates this for you as you might be good at leaving this as it is or edit according to your security requirement
 
 These keys have the requirements of having uppercase letters, lowercase letters, numbers and 64 characters
-
-
-## TOKEN_VALIDITY_DURATION_IN_DAYS
-These set the number of days you want an auth token to be valid, We default to 14 days but you can set the number of days you want
-
-## FORCE_INTROSPECTION
-We introspect your database every time the application runs. 
-
-This behavior is good for most production use-cases as you want your schema to be up to date all the time
-
-But there are some times that this is not desired especially during development but we leave this to you to decide
-
-:::info
-`FORCE_INTROSPECTION` is not respected if your schema is empty so we will always introspect when running for the first time or if you delete your schema for any reason
-:::

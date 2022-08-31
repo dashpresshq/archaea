@@ -6,7 +6,6 @@ sidebar_position: 0
 
 Hadmean is an open-source internal tool generator that builds itself based on your database schema and your configurations. It is all batteries included and is extremely customizable.
 
-
 ## What
 Building admin apps is mostly a chore for developers and we tend to find the easiest way to build them, sometimes delegating it to the juniors of the teams
 
