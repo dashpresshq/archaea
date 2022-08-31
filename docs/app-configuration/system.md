@@ -1,11 +1,11 @@
 ---
-sidebar_position: 6
+sidebar_position: 7
 ---
 
 # System Settings
 
 ## Token Validity Duration
-These set the number of days you want an auth token to be valid, We default to 14 days but you can set the number of days you want
+Set the number of days you want an auth token to be valid, We default to 14 days but you can set the number of days you want
 
 ## Force Introspection
 We introspect your database every time the application runs. 
