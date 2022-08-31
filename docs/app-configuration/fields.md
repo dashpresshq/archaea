@@ -4,6 +4,12 @@ sidebar_position: 3
 
 # Fields
 
+## Labels
+
+## Types
+
+## Order
+
   LINK_TO_DOC You get the customize the labels, for the field,
                     Say you want `updatedAt` to be called `Last Updated`. Here
                     is where you that

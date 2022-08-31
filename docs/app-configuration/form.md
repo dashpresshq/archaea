@@ -3,17 +3,19 @@ sidebar_position: 5
 ---
 
 # Form
+Forms are complex, They are the core of the business requirement and we believe giving you a programming API will be the best to satisfy the deepest requirement as opposed to making things visual and blocking you when your requirement gets too complex. 
 
-   Here, you get to run any action just after the action is submitted
-          LINK_TO_DOC
+As you will expect you will need some Javascript knowledge to proceed in this section
 
-               Here, you get to modify your form just before submit so that you add
-          or remove fields based on requirement LINK_TO_DOC
+There are three forms that we use to achieve this
 
-          Here you modify the behaviour of the form LINK_TO_DOC
+## Field State
+TODO
 
+## Before Submit
+TODO
+// Here, you get to modify your form just before submit so that you add or remove fields based on requirements
 
-
-synced db validations
-
-filters, reading on details, on table
+## After Submit
+TODO Here, you get to run any action just after the action is submitted
+synced DB validations
