@@ -23,7 +23,9 @@ All passwords are hashed using `bcrypt`.
 We use `KnexJS` for our queries and nowhere do we use raw queries in Hadmean, So all your queries are parameterized
 
 ## Data Validation
-All Data validations are performed in the frontend as well as in the FE, Also only data enabled to update/create will be updated/created
+All Data validations are performed in the frontend as well as in the FE.
+
+Only fields enabled to updated/created will be updated/created
 
 ## Reading Data
 Any disabled data will not leave our APIs, If an entity is disabled, then any request associated with it will result in a 404.
