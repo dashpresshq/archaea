@@ -11,7 +11,7 @@ CONFIG_ADAPTOR=json-file
 CONFIG_ADAPTOR_CONNECTION_STRING=PLACE_HOLDER_CONFIG_ADAPTOR_CONNECTION_STRING
 
 CACHE_ADAPTOR=memory
-CONFIG_CACHE_CONNECTION_STRING=PLACE_HOLDER_CONFIG_CACHE_CONNECTION_STRING
+CACHE_ADAPTOR_CONNECTION_STRING=PLACE_HOLDER_CACHE_ADAPTOR_CONNECTION_STRING
 
 ENCRYPTION_KEY=<SOME_RANDOM_STRING>
 AUTH_TOKEN_KEY=<SOME_RANDOM_STRING>
@@ -59,8 +59,8 @@ The default value of `memory` is good for all use-cases except when you are runn
 
 This leads us to the only other option `redis`
 
-## CONFIG_CACHE_CONNECTION_STRING
-if you want to use `redis` in the option above the `CONFIG_CACHE_CONNECTION_STRING` takes in the connection string to your URL
+## CACHE_ADAPTOR_CONNECTION_STRING
+if you want to use `redis` in the option above the `CACHE_ADAPTOR_CONNECTION_STRING` takes in the connection string to your URL
 
 ## ENCRYPTION_KEY & AUTH_TOKEN_KEY
 We need an encryption key to encrypt your database credentials so that if even it gets leaked, attackers can't do any harm with it.

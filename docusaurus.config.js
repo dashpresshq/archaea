@@ -8,7 +8,7 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 const config = {
   title: "Hadmean",
   tagline:
-    "Your agnostic, powerful, one-line install, customizable, all batteries included and free admin apps generator",
+    "Hadmean is an agnostic, fully featured, customizable admin app generator.",
   url: "https://hadmean.github.io",
   baseUrl: "/hadmean/",
   onBrokenLinks: "throw",
@@ -87,14 +87,14 @@ const config = {
                 label: "Stack Overflow",
                 href: "https://stackoverflow.com/questions/tagged/hadmean",
               },
-              {
-                label: "Discord",
-                href: "https://discordapp.com/invite/hadmean",
-              },
-              {
-                label: "Twitter",
-                href: "https://twitter.com/hadmean",
-              },
+              // {
+              //   label: "Discord",
+              //   href: "https://discordapp.com/invite/hadmean",
+              // },
+              // {
+              //   label: "Twitter",
+              //   href: "https://twitter.com/hadmean",
+              // },
             ],
           },
           {

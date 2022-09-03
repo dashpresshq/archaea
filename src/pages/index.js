@@ -32,8 +32,7 @@ export default function Home() {
   return (
     <Layout
       title={`Welcome To Hadmean ${siteConfig.title}`}
-      description="
-      Hadmean is a open-source internal tool generator that build itself based on your database schema and your configurations. It is all batteries included and extremely customizable"
+      description="Hadmean is an agnostic, fully featured, customizable admin app generator."
     >
       <HomepageHeader />
       <main>
