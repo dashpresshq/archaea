@@ -10,7 +10,9 @@ Reference Template is how you define how this entity will be displayed where it 
 Say you have `users` table in your application with the fields `first_name`, `last_name` and `title`. Reference Template is how you define how it will be rendered
 
 `{{ title }} {{ first_name }} {{ last_name }}` will be templated as `Mr John Doe` 
+
 `{{ last_name }} {{ first_name }}` will be templated as `Doe John` 
+
 `{{ first_name }} / {{ last_name }}` will be templated as `John / Doe` 
 
 It uses mustache under the hood, so bring in all your mustache knowledge here
