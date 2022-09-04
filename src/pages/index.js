@@ -32,7 +32,7 @@ export default function Home() {
   return (
     <Layout
       title={`Welcome To Hadmean ${siteConfig.title}`}
-      description="Hadmean is an agnostic, fully featured, customizable admin app generator."
+      description={siteConfig.description}
     >
       <HomepageHeader />
       <main>

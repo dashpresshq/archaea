@@ -8,7 +8,7 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 const config = {
   title: "Hadmean",
   tagline:
-    "Hadmean is an agnostic, fully featured, customizable admin app generator.",
+    "Hadmean is an internal tool generator. It is language agnostic, schema driven, extremely customizable, fully featured, user-friendly and has just one installation step.",
   url: "https://hadmean.github.io",
   baseUrl: "/hadmean/",
   onBrokenLinks: "throw",
