@@ -20,28 +20,30 @@ TODO
 All passwords are hashed using `bcrypt`.
 
 ## SQL Injection
-We use `KnexJS` for our queries and nowhere do we use raw queries in Hadmean, So all your queries are parameterized
+All queries are parameterized as we use `KnexJS` for our queries and nowhere do we use raw queries in Hadmean.
 
 ## Data Validation
-All Data validations are performed in the frontend as well as in the FE.
+All data validations are performed in the frontend as well as in the backend.
 
-Only fields enabled to updated/created will be updated/created
+Only fields enabled to be updated/created will be updated/created.
 
 ## Reading Data
-Any disabled data will not leave our APIs, If an entity is disabled, then any request associated with it will result in a 404.
+Any disabled data will not be sent to the UI.
 
-We don't do any `SELECT *` so allow the fields you expose will be requested from the database
+Any request associated with a disabled entity will result in a 404.
+
+We don't do any `SELECT *` so only the fields you expose will be requested from the database.
 
 :::info
-Admin accounts are exempted from this 404 because sometimes they need to make requests to them like even to enable them
+Admin accounts are exempted from this 404 because sometimes they need to make requests to them like even to enable them.
 :::
 
 ## XSS prevention
-We use React and we don't `dangerouslySetInnerHTML` for anything
+We use React and we don't `dangerouslySetInnerHTML` for anything.
 
 ## Reporting
-We take security at heart, We welcome all vulnerability disclosures to `security@hadmean.com`. And we prioritize all security fixes over all other kinds of work
+We welcome all vulnerability disclosures to `security@hadmean.com` and we prioritize all security fixes over all other kinds of work.
 
 :::info
-As long as you are running `npx hadmean@latest` to run your applications, You will always be running the latest version of Hadmean meaning there will be *NO* steps on your path to update your project to get any security fix 
+You will always be running the latest version of Hadmean as long as you use `npx hadmean@latest` to run the application.
 :::
