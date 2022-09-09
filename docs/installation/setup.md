@@ -41,7 +41,7 @@ Afterward, You will be asked to create your root admin account which will have a
 
 And you are done with the setup!
 
-:::info
+:::caution
  There is no provision to update your database credentials.
 :::
 
@@ -52,6 +52,11 @@ And you are done with the setup!
 :::info
  Running the application again is as simple as running `npx hadmean@latest` in the same folder, There is no other command
 :::
+
+:::info
+ You can change the default port `3000` by setting `PORT` in your environment variable
+:::
+
 
 As you can see the setup was quite easy and as you might have guessed there is some magic going on behind the scenes primarily with `.env.local`. 
 
