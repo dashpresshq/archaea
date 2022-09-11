@@ -14,7 +14,7 @@ sidebar_position: 2
 All credentials provided in the application are encrypted at rest using `aes-256-gcm` with the `ENCRYPTION_KEY` in your `.env`
 
 ## CSRF 
-TODO
+We store your auth tokens in localstorage, so CSRF is not possible
 
 ## Password 
 All passwords are hashed using `bcrypt`.
