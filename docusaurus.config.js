@@ -66,6 +66,11 @@ const config = {
             label: "GitHub",
             position: "right",
           },
+          {
+            href: "https://discord.gg/aV6DxwXhzN",
+            label: "Discord",
+            position: "right",
+          },
         ],
       },
       footer: {
@@ -87,14 +92,14 @@ const config = {
                 label: "Stack Overflow",
                 href: "https://stackoverflow.com/questions/tagged/hadmean",
               },
-              // {
-              //   label: "Discord",
-              //   href: "https://discordapp.com/invite/hadmean",
-              // },
-              // {
-              //   label: "Twitter",
-              //   href: "https://twitter.com/hadmean",
-              // },
+              {
+                label: "Discord",
+                href: "https://discord.gg/aV6DxwXhzN",
+              },
+              {
+                label: "Twitter",
+                href: "https://twitter.com/hadmeanHQ",
+              },
             ],
           },
           {

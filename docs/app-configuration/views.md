@@ -2,9 +2,9 @@
 sidebar_position: 7
 ---
 
-# Table Tabs
+# Views
 
-Table Tabs enables you implement table tabs like this
+Views enables you to implement views like this
 
 ![Tab Tables](./img/table-tabs.png)
 
