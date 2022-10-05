@@ -37,7 +37,7 @@ const config = {
           sidebarPath: require.resolve("./sidebars.js"),
           editUrl: "https://github.com/hadmean/archaea/edit/main",
         },
-        blog: false,
+        blog: {},
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
         },
@@ -60,7 +60,7 @@ const config = {
             position: "left",
             label: "Documentation",
           },
-          // { to: "/blog", label: "Blog", position: "left" },
+          { to: "/blog", label: "Blog", position: "left" },
           {
             href: "https://github.com/hadmean/hadmean",
             label: "GitHub",
