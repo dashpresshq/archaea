@@ -1,7 +1,7 @@
 ---
 title: Hadmean - Introducing the easiest, most efficient internal tool generator.
 authors: [ayobami]
-tags: [hello, docusaurus]
+tags: [introduction]
 ---
 
 ![Banner](./banner.png)
@@ -17,7 +17,7 @@ Internal tools, also known as admin interfaces, internal software, admin panels,
 
 Internal tools are incredibly vital, and developers invest significant time in developing internal tools, admin panels, and systems for back-office operations to automate and speed up essential business functions. It includes several efforts, ranging from database maintenance to creating various front-end and back-end codes. But what if you could utilize a modern tool to build such applications that help to ease the burden of your work? Sounds good, right? Let's look at how you can also create internal tools that enable business agility.
 ## What is Hadmean?
-Hadmean is an open-source, no-code software that generates admin dashboards, internal apps, and admin panels based on your existing database information. It is fully featured and extremely customizable.
+[Hadmean](https://github.com/hadmean/hadmean) is an open-source, no-code software that generates admin dashboards, internal apps, and admin panels based on your existing database information. It is fully featured and extremely customizable.
 
 ## Why Hadmean?
 Most internal tool generators make you build from the ground up i.e you get a blank canvas then you are asked to drag and drop components, and wire them together to satisfy your business requirement. This I believe has many problems.
