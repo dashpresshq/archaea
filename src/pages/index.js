@@ -6,7 +6,8 @@ import Layout from "@theme/Layout";
 // import HomepageFeatures from "@site/src/components/HomepageFeatures";
 import { Container } from "styled-bootstrap-grid";
 import { PageLayout } from "../ui-blocks/Root";
-
+import { Header } from "../components/Header";
+import { HeroSection } from "../components/HeroSection";
 // import styles from "./index.module.css";
 
 // function HomepageHeader() {
@@ -35,7 +36,7 @@ export default function Home() {
   return (
     <PageLayout>
       <Header />
-      <Container>Fooo</Container>
+      <HeroSection />
     </PageLayout>
   );
 }
