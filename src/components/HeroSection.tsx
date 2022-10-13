@@ -3,13 +3,17 @@ import { Col, Container, Row } from "styled-bootstrap-grid";
 import styled from "styled-components";
 import styledComponents from "styled-components";
 import { COLORS, SIZES } from "../constants";
+import { Spacer } from "../ui-blocks/Spacer";
+import { Text } from "../ui-blocks/Text";
 
 export const Root = styledComponents.div`
-    background: url(/assets/images/saas/home-shape.png) center center;
+    // background: url(/assets/images/saas/home-shape.png) center center;
+    background: #F0EDFF;
     height: auto;
+    width: 100%;
     align-self: center;
-    align-items: center!important;
-    display: flex!important;
+    align-items: center !important;
+    display: flex !important;
 `;
 
 const Heading = styled.div`
@@ -18,12 +22,6 @@ const Heading = styled.div`
   @media (min-width: ${SIZES.tablet}px) {
     margin-top: 100px;
   }
-`;
-
-const Title = styled.h1`
-  font-size: 45px !important;
-  letter-spacing: 1px;
-  margin-bottom: 1rem !important;
 `;
 
 const Description = styled.p`
@@ -49,12 +47,16 @@ export const HeroSection = () => {
         <Row>
           <StyledCol>
             <Heading>
-              <Title>Build fast, released quickly.</Title>
-
+              <Text size="2">
+                Build your powerful internal tools under 59 seconds
+              </Text>
+              <Spacer size="xxl" />
+              <Spacer size="xxl" />
               <Description>
                 Launch your campaign and benefit from our expertise on designing
                 and managing conversion centered bootstrap v5 html page.
               </Description>
+              {/* Get Started, Video Walkthrough */}
             </Heading>
           </StyledCol>
         </Row>
@@ -62,3 +64,4 @@ export const HeroSection = () => {
     </Root>
   );
 };
+// Introducing the fastest, most efficient internal tool generator.

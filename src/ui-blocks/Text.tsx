@@ -1,9 +1,9 @@
 import styled from "styled-components";
-import { TEXT_COLORS } from "../AppWrapper/colors";
+import { COLORS } from "../constants";
 
 export type TextProps = {
   size: "1" | "2" | "3" | "4" | "5" | "6";
-  color: keyof typeof TEXT_COLORS;
+  color: keyof typeof COLORS;
   weight: "light" | "regular" | "bold" | "thick";
   textStyle?: "italic";
   as: "p" | "span";
@@ -29,7 +29,7 @@ export const Text = styled.p.attrs((props: TextProps) => ({
   role: props.as || "p",
 }))<Partial<TextProps>>(
   ({ size = "4", color = "main", weight = "regular", textStyle }) => ({
-    color: TEXT_COLORS[color],
+    color: COLORS[color],
     fontStyle: textStyle || "normal",
     fontWeight: weights[weight],
     fontSize: `${sizes[size]}px`,

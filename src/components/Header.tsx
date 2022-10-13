@@ -3,6 +3,7 @@ import styled from "styled-components";
 import { Container } from "styled-bootstrap-grid";
 import { Stack } from "../ui-blocks/Stack";
 import { COLORS, SIZES } from "../constants";
+import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 
 export const Root = styled.header`
   position: fixed;
@@ -80,25 +81,26 @@ const NavMenuListAnchor = styled.a`
 `;
 
 export const Header = () => {
+  const { siteConfig } = useDocusaurusContext();
   return (
     <Root>
       <Container>
         <Logo href="/">
-          <img height={24} src="/hadmean/img/logo.png" />
+          <img height={24} src={`${siteConfig.baseUrl}/img/logo.png`} />
         </Logo>
         <Navigation>
           <NavMenu>
             <NavMenuList>
-              <NavMenuListAnchor href="/docs">Home</NavMenuListAnchor>
+              <NavMenuListAnchor href="/docs">Docs</NavMenuListAnchor>
             </NavMenuList>
             <NavMenuList>
-              <NavMenuListAnchor href="/docs">Home</NavMenuListAnchor>
+              <NavMenuListAnchor href="/docs">Blog</NavMenuListAnchor>
             </NavMenuList>
             <NavMenuList>
-              <NavMenuListAnchor href="/docs">Home</NavMenuListAnchor>
+              <NavMenuListAnchor href="/docs">Roadmap</NavMenuListAnchor>
             </NavMenuList>
             <NavMenuList>
-              <NavMenuListAnchor href="/docs">Home</NavMenuListAnchor>
+              <NavMenuListAnchor href="/docs">Demo</NavMenuListAnchor>
             </NavMenuList>
           </NavMenu>
         </Navigation>
@@ -106,3 +108,7 @@ export const Header = () => {
     </Root>
   );
 };
+
+// Discord
+// twitter
+// Github
