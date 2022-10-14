@@ -50,7 +50,7 @@ export const HeroSection = () => {
               <Spacer size="xxl" />
               <button>Get Started</button>
               <button>Try Demo</button>
-              <button>Video Walkthrough</button>
+              {/* <button>Video Walkthrough</button> */}
             </Heading>
           </StyledCol>
         </Row>
