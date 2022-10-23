@@ -16,10 +16,6 @@ export function HomeScreen() {
         <meta name="description" content={siteConfig.tagline} />
         <meta property="og:site_name" content="Hadmean" />
         <meta
-          property="og:description"
-          content="Get started with a free and open-source landing page for Tailwind CSS built with the Flowbite component library featuring dark mode, hero sections, pricing cards, and more."
-        />
-        <meta
           property="og:image"
           content="https://themesberg.s3.us-east-2.amazonaws.com/public/github/landwind/og-image.png"
         />
