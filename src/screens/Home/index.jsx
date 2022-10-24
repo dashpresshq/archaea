@@ -65,7 +65,7 @@ export function HomeScreen() {
       <Intro />
       <Features />
       <Testimonial />
-      <Pricing />
+      {/* <Pricing /> */}
       <Faq />
       <CallToAction />
       <Footer />

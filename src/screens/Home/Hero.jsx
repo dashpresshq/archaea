@@ -13,8 +13,10 @@ export function Hero() {
             Build powerful internal tools under 59 seconds
           </h1>
           <p className="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400">
-            Finally an open source, no-code internal tool generator that you can
-            set up under 59 seconds.
+            Save 1000+ engineering hours generating your internal tools rather
+            than building and maintaining them with your precious engineering
+            resources.
+            <br />
           </p>
           <div className="space-y-4 sm:flex sm:space-y-0 sm:space-x-4">
             <Link
