@@ -9,7 +9,7 @@ export function Pricing() {
             Designed for business teams like yours
           </h2>
           <p className="mb-5 font-light text-gray-500 sm:text-xl dark:text-gray-400">
-            Here at Landwind we focus on markets where technology, innovation,
+            Here at Hadmean we focus on markets where technology, innovation,
             and capital can unlock long-term value and drive economic growth.
           </p>
         </div>

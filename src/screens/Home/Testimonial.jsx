@@ -18,9 +18,9 @@ export function Testimonial() {
           </svg>
           <blockquote>
             <p className="text-xl font-medium text-gray-900 md:text-2xl dark:text-white">
-              "Landwind is just awesome. It contains tons of predesigned
-              components and pages starting from login screen to complex
-              dashboard. Perfect choice for your next SaaS application."
+              "Hadmean is just awesome. It built all the features for my
+              internal with little techincal how-know. Perfect choice for your
+              next internal tool application."
             </p>
           </blockquote>
           <figcaption className="flex items-center justify-center mt-6 space-x-3">
@@ -31,10 +31,10 @@ export function Testimonial() {
             />
             <div className="flex items-center divide-x-2 divide-gray-500 dark:divide-gray-700">
               <div className="pr-3 font-medium text-gray-900 dark:text-white">
-                Micheal Gough
+                Afia Udofia
               </div>
               <div className="pl-3 text-sm font-light text-gray-500 dark:text-gray-400">
-                CEO at Google
+                CTO at Rentranzact
               </div>
             </div>
           </figcaption>

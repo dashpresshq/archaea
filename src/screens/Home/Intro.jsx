@@ -83,6 +83,7 @@ export function Intro() {
               {[
                 "Roles and Permissions",
                 "Dashboard Builder",
+                "Full CRUD",
                 "Form Validation",
                 "Relationships",
                 "Powerful Filters",
