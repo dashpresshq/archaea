@@ -13,8 +13,9 @@ export function Features() {
             Trusted by over 600 million users and 10,000 teams
           </h2>
           <p className="font-light text-gray-500 sm:text-xl dark:text-gray-400">
-            Our rigorous security and compliance standards are at the heart of
-            all we do. We work tirelessly to protect you and your customers.
+            Hadmean is an internal tool generator. It is language agnostic,
+            schema driven, extremely customizable, fully featured, user-friendly
+            and has just one installation step.
           </p>
           <div className="pt-6 mt-6 space-y-4 border-t border-gray-200 dark:border-gray-700">
             <div>

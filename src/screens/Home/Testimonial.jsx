@@ -34,7 +34,7 @@ export function Testimonial() {
                 Afia Udofia
               </div>
               <div className="pl-3 text-sm font-light text-gray-500 dark:text-gray-400">
-                CTO at Rentranzact
+                Technology Expert
               </div>
             </div>
           </figcaption>

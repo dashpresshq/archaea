@@ -50,9 +50,13 @@ export function Intro() {
               ))}
             </ul>
             <p className="mb-8 font-light lg:text-xl">
-              All Hadmean needs is your database credentials. <br />
-              Then it will introspect your database and build for you a powerful
-              internal tool to save you 1000+ hours in engineering time
+              Hadmean is literal{" "}
+              <span className="text-lg text-bold font-medium text-purple-600 dark:text-purple-500">
+                {" "}
+                eating your cake and having it{" "}
+              </span>
+              . Just build your database schema properly and Hadmean will do the
+              rest.
             </p>
           </div>
           <img
@@ -69,7 +73,7 @@ export function Intro() {
           />
           <div className="text-gray-500 sm:text-lg dark:text-gray-400">
             <h2 className="mb-4 text-3xl font-extrabold tracking-tight text-gray-900 dark:text-white">
-              Hadmean is featured packed.
+              Hadmean is fully featured.
             </h2>
             <p className="mb-8 font-light lg:text-xl">
               As opposed to building from the ground up, You will be tearing
@@ -108,8 +112,8 @@ export function Intro() {
               ))}
             </ul>
             <p className="font-light lg:text-xl">
-              Deliver great service experiences fast - without the complexity of
-              traditional ITSM solutions.
+              All the features needed to operate your internal operations and
+              process without the burden of building and maintenace.
             </p>
           </div>
         </div>

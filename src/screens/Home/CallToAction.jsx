@@ -10,8 +10,8 @@ export function CallToAction() {
             Build your next internal tool with Hadmean
           </h2>
           <p className="mb-6 font-light text-gray-500 dark:text-gray-400 md:text-lg">
-            Focus your engineering resources on more interesting things. Don't
-            build and maintain what you can auto-generate.
+            Focus your precious engineering resources on more interesting
+            things. Don't build and maintain what you can auto-generate.
           </p>
           <Link
             href="/docs/installation/setup"
