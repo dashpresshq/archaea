@@ -11,6 +11,7 @@ import { Intro } from "./Intro";
 import { Hero } from "./Hero";
 import { UsedBy } from "./UsedBy";
 import { Header } from "./Header";
+import "./style.css";
 
 export function HomeScreen() {
   const { siteConfig } = useDocusaurusContext();

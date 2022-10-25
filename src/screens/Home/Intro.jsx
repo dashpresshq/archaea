@@ -15,8 +15,8 @@ export function Intro() {
             </h2>
             <p className="mb-8 font-light lg:text-xl">
               Your database already has good information on what your internal
-              tool should be doing. Don't use your engineering resources to
-              build what can be auto-generated
+              tool should be doing. Stop using your engineering resources to
+              build what can be auto-generated.
             </p>
             <ul
               role="list"
@@ -25,8 +25,10 @@ export function Intro() {
               {[
                 "No Javascript",
                 "No SQL",
-                "No Tutorial",
-                "No Drag and Drop",
+                "No tutorial",
+                "No drag-and-drop",
+                "No learning curve",
+                "No maintenance",
               ].map((text) => (
                 <li key={text} className="flex space-x-3">
                   <svg
@@ -67,12 +69,12 @@ export function Intro() {
           />
           <div className="text-gray-500 sm:text-lg dark:text-gray-400">
             <h2 className="mb-4 text-3xl font-extrabold tracking-tight text-gray-900 dark:text-white">
-              Hadmean is featured packed
+              Hadmean is featured packed.
             </h2>
             <p className="mb-8 font-light lg:text-xl">
               As opposed to building from the ground up, You will be tearing
               down as Hadmean gives you too much features so you will be
-              removing some of it
+              removing some of it.
             </p>
             <ul
               role="list"
