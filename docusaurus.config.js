@@ -3,7 +3,6 @@
 
 const lightCodeTheme = require("prism-react-renderer/themes/github");
 const darkCodeTheme = require("prism-react-renderer/themes/dracula");
-const { SITE_LINKS } = require("./src/constants");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -78,12 +77,12 @@ const config = {
           },
           { to: "/blog", label: "Blog", position: "left" },
           {
-            href: SITE_LINKS.GITHUB,
+            href: "https://github.com/hadmean/hadmean",
             label: "GitHub",
             position: "right",
           },
           {
-            href: SITE_LINKS.DISCORD,
+            href: "https://discord.gg/aV6DxwXhzN",
             label: "Discord",
             position: "right",
           },
@@ -106,15 +105,15 @@ const config = {
             items: [
               {
                 label: "Stack Overflow",
-                href: SITE_LINKS.STACK_OVERFLOW,
+                href: "https://stackoverflow.com/questions/tagged/hadmean",
               },
               {
                 label: "Discord",
-                href: SITE_LINKS.DISCORD,
+                href: "https://discord.gg/aV6DxwXhzN",
               },
               {
                 label: "Twitter",
-                href: SITE_LINKS.TWITTER,
+                href: "https://twitter.com/hadmeanHQ",
               },
             ],
           },
@@ -123,7 +122,7 @@ const config = {
             items: [
               {
                 label: "GitHub",
-                href: SITE_LINKS.GITHUB,
+                href: "https://github.com/hadmean/hadmean",
               },
             ],
           },
