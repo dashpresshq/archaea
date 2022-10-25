@@ -53,9 +53,9 @@ export function Intro() {
               Hadmean is literal{" "}
               <span className="text-lg text-bold font-medium text-primary dark:text-primary-light">
                 {" "}
-                eating your cake and having it{" "}
+                eating your cake and having it.{" "}
               </span>
-              . Just build your database schema properly and Hadmean will do the
+              Just build your database schema properly and Hadmean will do the
               rest.
             </p>
           </div>

@@ -1,5 +1,6 @@
 import React from "react";
 import Head from "@docusaurus/Head";
+import BrowserOnly from "@docusaurus/BrowserOnly";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import { Footer } from "./Footer";
 import { CallToAction } from "./CallToAction";
@@ -15,7 +16,7 @@ export function HomeScreen() {
   const { siteConfig } = useDocusaurusContext();
 
   return (
-    <>
+    <BrowserOnly>
       <Head>
         <title>{`Hadmean - The simplest and most efficient no-code internal tool generator`}</title>
         <meta
@@ -63,6 +64,6 @@ export function HomeScreen() {
       <Faq />
       <CallToAction />
       <Footer />
-    </>
+    </BrowserOnly>
   );
 }
