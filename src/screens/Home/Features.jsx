@@ -6,7 +6,7 @@ export function Features() {
     <section className="bg-white dark:bg-gray-900">
       <div className="items-center max-w-screen-xl px-4 py-8 mx-auto lg:grid lg:grid-cols-4 lg:gap-16 xl:gap-24 lg:py-24 lg:px-6">
         <div className="col-span-2 mb-8">
-          <p className="text-lg font-medium text-primary dark:text-purple-500">
+          <p className="text-lg font-medium text-primary dark:text-primary-light">
             Why you should try Hadmean
           </p>
           <h2 className="mt-3 mb-4 text-3xl font-extrabold tracking-tight text-gray-900 md:text-3xl dark:text-white">
@@ -21,7 +21,7 @@ export function Features() {
             <div>
               <Link
                 href="https://github.com/orgs/hadmean/projects/1"
-                className="inline-flex items-center text-base font-medium text-primary hover:text-purple-800 dark:text-purple-500 dark:hover:text-primary"
+                className="inline-flex items-center text-base font-medium text-primary hover:text-primary dark:text-primary-light dark:hover:text-primary"
               >
                 Check Upcoming features
                 <svg
@@ -43,7 +43,7 @@ export function Features() {
         <div className="col-span-2 space-y-8 md:grid md:grid-cols-2 md:gap-12 md:space-y-0">
           <div>
             <svg
-              className="w-10 h-10 mb-2 text-primary md:w-12 md:h-12 dark:text-purple-500"
+              className="w-10 h-10 mb-2 text-primary md:w-12 md:h-12 dark:text-primary-light"
               fill="currentColor"
               viewBox="0 0 20 20"
               xmlns="http://www.w3.org/2000/svg"
@@ -63,7 +63,7 @@ export function Features() {
           </div>
           <div>
             <svg
-              className="w-10 h-10 mb-2 text-primary md:w-12 md:h-12 dark:text-purple-500"
+              className="w-10 h-10 mb-2 text-primary md:w-12 md:h-12 dark:text-primary-light"
               fill="currentColor"
               viewBox="0 0 20 20"
               xmlns="http://www.w3.org/2000/svg"
@@ -79,7 +79,7 @@ export function Features() {
           </div>
           <div>
             <svg
-              className="w-10 h-10 mb-2 text-primary md:w-12 md:h-12 dark:text-purple-500"
+              className="w-10 h-10 mb-2 text-primary md:w-12 md:h-12 dark:text-primary-light"
               fill="currentColor"
               viewBox="0 0 20 20"
               xmlns="http://www.w3.org/2000/svg"
@@ -99,7 +99,7 @@ export function Features() {
           </div>
           <div>
             <svg
-              className="w-10 h-10 mb-2 text-primary md:w-12 md:h-12 dark:text-purple-500"
+              className="w-10 h-10 mb-2 text-primary md:w-12 md:h-12 dark:text-primary-light"
               fill="currentColor"
               viewBox="0 0 20 20"
               xmlns="http://www.w3.org/2000/svg"

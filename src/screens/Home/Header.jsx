@@ -20,7 +20,7 @@ export function Header() {
           <div className="flex items-center lg:order-2">
             <div className="hidden mt-2 mr-4 sm:inline-block">
               <Link
-                className="github-button"
+                className="github-button dark:text-white"
                 href={SITE_LINKS.GITHUB}
                 data-size="large"
                 data-icon="octicon-star"
@@ -32,7 +32,7 @@ export function Header() {
             </div>
             <Link
               href={SITE_LINKS.TWITTER}
-              className="text-gray-800 dark:text-white hover:bg-gray-50 focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-2 py-2 lg:py-2.5 sm:mr-2 dark:hover:bg-gray-700 focus:outline-none dark:focus:ring-gray-800"
+              className="text-gray-800 dark:text-white hover:bg-gray-50 dark:hover:bg-white focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-2 py-2 lg:py-2.5 sm:mr-2 dark:hover:bg-gray-700 focus:outline-none dark:focus:ring-gray-800"
             >
               <svg
                 className="w-5 h-5"
@@ -45,7 +45,7 @@ export function Header() {
             </Link>
             <Link
               href="https://discord.gg/aV6DxwXhzN"
-              className="text-gray-800 dark:text-white hover:bg-gray-50 focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-2 py-2 lg:py-2.5 sm:mr-2 dark:hover:bg-gray-700 focus:outline-none dark:focus:ring-gray-800"
+              className="text-gray-800 dark:text-white hover:bg-gray-50 dark:hover:bg-white focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-2 py-2 lg:py-2.5 sm:mr-2 dark:hover:bg-gray-700 focus:outline-none dark:focus:ring-gray-800"
             >
               <svg
                 className="w-5 h-5"
@@ -62,7 +62,7 @@ export function Header() {
             </Link>
             <Link
               to="/docs/installation/setup"
-              className="text-white bg-primary hover:bg-purple-800 hover:text-white focus:ring-4 focus:ring-purple-300 font-medium rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 sm:mr-2 lg:mr-0 dark:bg-purple-600 dark:hover:bg-primary focus:outline-none dark:focus:ring-purple-800"
+              className="text-white bg-primary hover:bg-primary-dark hover:text-white focus:ring-4 focus:ring-primary-lighter font-medium rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 sm:mr-2 lg:mr-0 focus:outline-none dark:focus:ring-primary"
             >
               Get Started
             </Link>
@@ -108,7 +108,7 @@ export function Header() {
               <li>
                 <Link
                   href="/"
-                  className="block py-2 pl-3 pr-4 text-white bg-primary rounded lg:bg-transparent lg:text-primary lg:p-0 dark:text-white"
+                  className="block py-2 pl-3 pr-4 text-white bg-primary rounded lg:bg-transparent lg:text-primary dark:lg:text-primary-light  lg:p-0 dark:text-white"
                   aria-current="page"
                 >
                   Home
