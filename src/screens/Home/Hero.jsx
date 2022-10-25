@@ -13,7 +13,7 @@ export function Hero() {
             Build powerful internal tools under 59 seconds
           </h1>
           <p className="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400">
-            <span className="text-lg font-medium text-purple-600 dark:text-purple-500">
+            <span className="text-lg font-medium text-primary dark:text-purple-500">
               Save <b>1000+</b> engineering hours{" "}
             </span>
             generating your internal tools rather than building and maintaining
@@ -23,9 +23,9 @@ export function Hero() {
           <div className="space-y-4 sm:flex sm:space-y-0 sm:space-x-4">
             <Link
               to="/docs/installation/setup"
-              className="inline-flex text-white items-center justify-center bg-purple-700 hover:bg-purple-800 hover:text-white w-full px-5 py-3 text-sm font-medium text-center border border-gray-200 rounded-lg sm:w-auto focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800"
+              className="inline-flex text-white items-center justify-center bg-primary hover:bg-purple-800 hover:text-white w-full px-5 py-3 text-sm font-medium text-center border border-gray-200 rounded-lg sm:w-auto focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800"
             >
-              {/* className="focus:ring-4 focus:ring-purple-300 font-medium rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 sm:mr-2 lg:mr-0 dark:bg-purple-600 dark:hover:bg-purple-700 focus:outline-none dark:focus:ring-purple-800" */}
+              {/* className="focus:ring-4 focus:ring-purple-300 font-medium rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 sm:mr-2 lg:mr-0 dark:bg-purple-600 dark:hover:bg-primary focus:outline-none dark:focus:ring-purple-800" */}
               <svg
                 className="w-4 h-4 mr-2 text-white dark:text-gray-400"
                 xmlns="http://www.w3.org/2000/svg"

@@ -4,12 +4,10 @@ import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import { Footer } from "./Footer";
 import { CallToAction } from "./CallToAction";
 import { Faq } from "./Faq";
-import { Pricing } from "./Pricing";
 import { Testimonial } from "./Testimonial";
 import { Features } from "./Features";
 import { Intro } from "./Intro";
 import { Hero } from "./Hero";
-import { UsedBy } from "./UsedBy";
 import { Header } from "./Header";
 import "./style.css";
 
@@ -54,15 +52,10 @@ export function HomeScreen() {
         <link rel="manifest" href="/site.webmanifest" />
 
         <script async defer src="https://buttons.github.io/buttons.js"></script>
-        <script
-          async
-          defer
-          src="https://unpkg.com/flowbite@1.4.1/dist/flowbite.js"
-        ></script>
       </Head>
       <Header />
       <Hero />
-      <UsedBy />
+      {/* <UsedBy /> */}
       <Intro />
       <Features />
       <Testimonial />

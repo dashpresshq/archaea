@@ -6,7 +6,7 @@ export function Features() {
     <section className="bg-white dark:bg-gray-900">
       <div className="items-center max-w-screen-xl px-4 py-8 mx-auto lg:grid lg:grid-cols-4 lg:gap-16 xl:gap-24 lg:py-24 lg:px-6">
         <div className="col-span-2 mb-8">
-          <p className="text-lg font-medium text-purple-600 dark:text-purple-500">
+          <p className="text-lg font-medium text-primary dark:text-purple-500">
             Why you should try Hadmean
           </p>
           <h2 className="mt-3 mb-4 text-3xl font-extrabold tracking-tight text-gray-900 md:text-3xl dark:text-white">
@@ -21,7 +21,7 @@ export function Features() {
             <div>
               <Link
                 href="https://github.com/orgs/hadmean/projects/1"
-                className="inline-flex items-center text-base font-medium text-purple-600 hover:text-purple-800 dark:text-purple-500 dark:hover:text-purple-700"
+                className="inline-flex items-center text-base font-medium text-primary hover:text-purple-800 dark:text-purple-500 dark:hover:text-primary"
               >
                 Check Upcoming features
                 <svg
@@ -43,7 +43,7 @@ export function Features() {
         <div className="col-span-2 space-y-8 md:grid md:grid-cols-2 md:gap-12 md:space-y-0">
           <div>
             <svg
-              className="w-10 h-10 mb-2 text-purple-600 md:w-12 md:h-12 dark:text-purple-500"
+              className="w-10 h-10 mb-2 text-primary md:w-12 md:h-12 dark:text-purple-500"
               fill="currentColor"
               viewBox="0 0 20 20"
               xmlns="http://www.w3.org/2000/svg"
@@ -63,7 +63,7 @@ export function Features() {
           </div>
           <div>
             <svg
-              className="w-10 h-10 mb-2 text-purple-600 md:w-12 md:h-12 dark:text-purple-500"
+              className="w-10 h-10 mb-2 text-primary md:w-12 md:h-12 dark:text-purple-500"
               fill="currentColor"
               viewBox="0 0 20 20"
               xmlns="http://www.w3.org/2000/svg"
@@ -79,7 +79,7 @@ export function Features() {
           </div>
           <div>
             <svg
-              className="w-10 h-10 mb-2 text-purple-600 md:w-12 md:h-12 dark:text-purple-500"
+              className="w-10 h-10 mb-2 text-primary md:w-12 md:h-12 dark:text-purple-500"
               fill="currentColor"
               viewBox="0 0 20 20"
               xmlns="http://www.w3.org/2000/svg"
@@ -99,16 +99,18 @@ export function Features() {
           </div>
           <div>
             <svg
-              className="w-10 h-10 mb-2 text-purple-600 md:w-12 md:h-12 dark:text-purple-500"
+              className="w-10 h-10 mb-2 text-primary md:w-12 md:h-12 dark:text-purple-500"
               fill="currentColor"
               viewBox="0 0 20 20"
               xmlns="http://www.w3.org/2000/svg"
             >
               <path d="M3 1a1 1 0 000 2h1.22l.305 1.222a.997.997 0 00.01.042l1.358 5.43-.893.892C3.74 11.846 4.632 14 6.414 14H15a1 1 0 000-2H6.414l1-1H14a1 1 0 00.894-.553l3-6A1 1 0 0017 3H6.28l-.31-1.243A1 1 0 005 1H3zM16 16.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0zM6.5 18a1.5 1.5 0 100-3 1.5 1.5 0 000 3z"></path>
             </svg>
-            <h3 className="mb-2 text-2xl font-bold dark:text-white">Secure</h3>
+            <h3 className="mb-2 text-2xl font-bold dark:text-white">
+              Agnostic
+            </h3>
             <p className="font-light text-gray-500 dark:text-gray-400">
-              Transactions per day
+              Your language or framework doesn't matter
             </p>
           </div>
         </div>

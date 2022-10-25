@@ -11,7 +11,7 @@ const FAQS = [
         aes-256-gcm. You can find more details about our security implemetations{" "}
         <Link
           href="/docs/security"
-          className="text-purple-600 dark:text-purple-500 hover:underline"
+          className="text-primary dark:text-purple-500 hover:underline"
         >
           here
         </Link>

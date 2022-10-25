@@ -32,7 +32,7 @@ export function Intro() {
               ].map((text) => (
                 <li key={text} className="flex space-x-3">
                   <svg
-                    className="flex-shrink-0 w-5 h-5 text-purple-500 dark:text-purple-400"
+                    className="flex-shrink-0 w-5 h-5 text-primary dark:text-purple-400"
                     fill="currentColor"
                     viewBox="0 0 20 20"
                     xmlns="http://www.w3.org/2000/svg"
@@ -51,7 +51,7 @@ export function Intro() {
             </ul>
             <p className="mb-8 font-light lg:text-xl">
               Hadmean is literal{" "}
-              <span className="text-lg text-bold font-medium text-purple-600 dark:text-purple-500">
+              <span className="text-lg text-bold font-medium text-primary dark:text-purple-500">
                 {" "}
                 eating your cake and having it{" "}
               </span>
@@ -94,7 +94,7 @@ export function Intro() {
               ].map((message) => (
                 <li className="flex space-x-3" key={message}>
                   <svg
-                    className="flex-shrink-0 w-5 h-5 text-purple-500 dark:text-purple-400"
+                    className="flex-shrink-0 w-5 h-5 text-primary dark:text-purple-400"
                     fill="currentColor"
                     viewBox="0 0 20 20"
                     xmlns="http://www.w3.org/2000/svg"
