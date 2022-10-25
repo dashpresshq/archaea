@@ -1,6 +1,5 @@
 import React from "react";
 import Head from "@docusaurus/Head";
-import BrowserOnly from "@docusaurus/BrowserOnly";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import { Footer } from "./Footer";
 import { CallToAction } from "./CallToAction";
@@ -11,12 +10,13 @@ import { Intro } from "./Intro";
 import { Hero } from "./Hero";
 import { Header } from "./Header";
 import "./style.css";
+import BrowserOnly from "@docusaurus/BrowserOnly";
 
-export function HomeScreen() {
+function HomeScreenImpl() {
   const { siteConfig } = useDocusaurusContext();
 
   return (
-    <BrowserOnly>
+    <>
       <Head>
         <title>{`Hadmean - The simplest and most efficient no-code internal tool generator`}</title>
         <meta
@@ -50,8 +50,6 @@ export function HomeScreen() {
           sizes="16x16"
           href="/favicon-16x16.png"
         />
-        <link rel="manifest" href="/site.webmanifest" />
-
         <script async defer src="https://buttons.github.io/buttons.js"></script>
       </Head>
       <Header />
@@ -64,6 +62,10 @@ export function HomeScreen() {
       <Faq />
       <CallToAction />
       <Footer />
-    </BrowserOnly>
+    </>
   );
+}
+
+export function HomeScreen() {
+  return <BrowserOnly>{() => <HomeScreenImpl />}</BrowserOnly>;
 }
