@@ -49,11 +49,10 @@ export function Faq() {
                     <button
                       type="button"
                       className={clsx(
-                        "flex items-center justify-between w-full py-5 font-medium text-left  border-b border-gray-200 dark:border-gray-700",
+                        "flex items-center justify-between w-full py-5 dark:text-white font-medium text-left  border-b border-gray-200 dark:border-gray-700",
                         {
-                          " text-gray-900 bg-white dark:bg-gray-900 dark:text-white":
-                            isActive,
-                          " text-gray-500  dark:bg-gray-400 ": !isActive,
+                          " text-gray-900 ": isActive,
+                          " text-gray-500 ": !isActive,
                         }
                       )}
                       data-accordion-target={`#accordion-flush-body-${id}`}

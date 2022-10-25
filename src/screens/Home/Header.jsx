@@ -2,10 +2,11 @@ import React from "react";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import Link from "@docusaurus/Link";
 import { SITE_LINKS } from "../../constants";
+import { useSchemeMode } from "../../hooks/useSchemeMode";
 
 export function Header() {
   const { siteConfig } = useDocusaurusContext();
-
+  const schemeMode = useSchemeMode();
   return (
     <header className="fixed w-full">
       <nav className="bg-white border-gray-200 py-2.5 dark:bg-gray-900">
@@ -13,7 +14,9 @@ export function Header() {
           <Link to="/" className="flex items-center">
             <img
               className="h-6 mr-3 sm:h-9"
-              src={`${siteConfig.baseUrl}/img/logo.png`}
+              src={`${siteConfig.baseUrl}/img/${
+                schemeMode === "dark" ? "logo-white" : "logo"
+              }.png`}
               alt="Hadmean logo"
             />
           </Link>
@@ -32,7 +35,7 @@ export function Header() {
             </div>
             <Link
               href={SITE_LINKS.TWITTER}
-              className="text-gray-800 dark:text-white hover:bg-gray-50 dark:hover:bg-white focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-2 py-2 lg:py-2.5 sm:mr-2 dark:hover:bg-gray-700 focus:outline-none dark:focus:ring-gray-800"
+              className="text-primary dark:text-white hover:bg-gray-50 focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-2 py-2 lg:py-2.5 sm:mr-2 focus:outline-none dark:focus:ring-gray-800"
             >
               <svg
                 className="w-5 h-5"
@@ -45,7 +48,7 @@ export function Header() {
             </Link>
             <Link
               href="https://discord.gg/aV6DxwXhzN"
-              className="text-gray-800 dark:text-white hover:bg-gray-50 dark:hover:bg-white focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-2 py-2 lg:py-2.5 sm:mr-2 dark:hover:bg-gray-700 focus:outline-none dark:focus:ring-gray-800"
+              className="text-primary dark:text-white hover:bg-gray-50 focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-2 py-2 lg:py-2.5 sm:mr-2 focus:outline-none dark:focus:ring-gray-800"
             >
               <svg
                 className="w-5 h-5"
@@ -117,7 +120,7 @@ export function Header() {
               <li>
                 <Link
                   href="/docs/intro"
-                  className="block py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700"
+                  className="block py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary lg:p-0 dark:text-white lg:dark:hover:text-primary-lighter dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700"
                 >
                   Docs
                 </Link>
@@ -125,7 +128,7 @@ export function Header() {
               <li>
                 <Link
                   href="/blog"
-                  className="block py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700"
+                  className="block py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary lg:p-0 dark:text-white lg:dark:hover:text-primary-lighter dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700"
                 >
                   Blog
                 </Link>
@@ -134,7 +137,7 @@ export function Header() {
                 <Link
                   target="_blank"
                   href="https://github.com/orgs/hadmean/projects/1"
-                  className="block py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700"
+                  className="block py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary lg:p-0 dark:text-white lg:dark:hover:text-primary-lighter dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700"
                 >
                   Roadmap
                 </Link>
@@ -143,7 +146,7 @@ export function Header() {
                 <Link
                   target="_blank"
                   href="https://hadmean-demo.up.railway.app"
-                  className="block py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700"
+                  className="block py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary lg:p-0 dark:text-white lg:dark:hover:text-primary-lighter dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700"
                 >
                   Demo
                 </Link>
