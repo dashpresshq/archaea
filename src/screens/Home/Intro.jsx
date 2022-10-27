@@ -113,7 +113,7 @@ export function Intro() {
             </ul>
             <p className="font-light lg:text-xl">
               All the features needed to operate your internal operations and
-              process without the burden of building and maintenace.
+              process without the burden of building and maintenance.
             </p>
           </div>
         </div>

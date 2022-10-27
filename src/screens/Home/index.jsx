@@ -7,6 +7,7 @@ import { Faq } from "./Faq";
 import { Testimonial } from "./Testimonial";
 import { Features } from "./Features";
 import { Intro } from "./Intro";
+import { UsedBy } from "./UsedBy";
 import { Hero } from "./Hero";
 import { Header } from "./Header";
 import "./style.css";
@@ -54,7 +55,7 @@ function HomeScreenImpl() {
       </Head>
       <Header />
       <Hero />
-      {/* <UsedBy /> */}
+      <UsedBy />
       <Intro />
       <Features />
       <Testimonial />
