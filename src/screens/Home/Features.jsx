@@ -1,11 +1,10 @@
 import React from "react";
-import Link from "@docusaurus/Link";
 
 const FEATURES = [
   {
     title: "Single Effort",
-    subTitle: "Let all your logic reside in your database",
-    description: `You don't want to duplicate logic already in your database. Hadmean will use all your constraints and relationships to build the UI and forms`,
+    subTitle: "Save time and effort",
+    description: `You don't want to duplicate logic already in your database as all your constraints and relationships will be used to build the UI and forms`,
     svg: (
       <svg
         className="w-10 h-10 mb-2 text-primary md:w-12 md:h-12 dark:text-primary-light"
@@ -123,7 +122,7 @@ export function Features() {
             and maintenance.
           </h2>
         </div>
-        <div className="space-y-8 md:grid md:grid-cols-3 md:gap-12 md:space-y-0">
+        <div className="space-y-8 pt-10 md:grid md:grid-cols-3 md:gap-12 md:space-y-0">
           {FEATURES.map(({ title, description, subTitle, svg }) => (
             <div key={title} className="text-center">
               {svg}
@@ -142,30 +141,4 @@ export function Features() {
       </div>
     </section>
   );
-}
-
-{
-  /* 
-          <div className="pt-6 mt-6 space-y-4 border-t border-gray-200 dark:border-gray-700">
-            <div>
-              <Link
-                href="https://github.com/orgs/hadmean/projects/1"
-                className="inline-flex items-center text-base font-medium text-primary hover:text-primary dark:text-primary-light dark:hover:text-primary"
-              >
-                Check Upcoming features
-                <svg
-                  className="w-5 h-5 ml-1"
-                  fill="currentColor"
-                  viewBox="0 0 20 20"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    fillRule="evenodd"
-                    d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
-                    clipRule="evenodd"
-                  ></path>
-                </svg>
-              </Link>
-            </div>
-          </div> */
 }

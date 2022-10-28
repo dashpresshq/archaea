@@ -1,6 +1,8 @@
 import React from "react";
 import Head from "@docusaurus/Head";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
+import BrowserOnly from "@docusaurus/BrowserOnly";
+
 import { Footer } from "./Footer";
 import { CallToAction } from "./CallToAction";
 import { Faq } from "./Faq";
@@ -10,8 +12,9 @@ import { Intro } from "./Intro";
 import { UsedBy } from "./UsedBy";
 import { Hero } from "./Hero";
 import { Header } from "./Header";
+import { Integrations } from "./Integrations";
+
 import "./style.css";
-import BrowserOnly from "@docusaurus/BrowserOnly";
 
 function HomeScreenImpl() {
   const { siteConfig } = useDocusaurusContext();
@@ -58,9 +61,10 @@ function HomeScreenImpl() {
       <UsedBy />
       <Intro />
       <Features />
+      <Integrations />
+      <Faq />
       <Testimonial />
       {/* <Pricing /> */}
-      <Faq />
       <CallToAction />
       <Footer />
     </>

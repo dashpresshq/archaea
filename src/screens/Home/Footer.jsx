@@ -9,7 +9,7 @@ export function Footer() {
   const schemeMode = useSchemeMode();
 
   return (
-    <footer className="bg-white dark:bg-gray-800">
+    <footer className="bg-gray-50 dark:bg-gray-800">
       <div className="max-w-screen-xl p-4 py-2 mx-auto lg:py-8 md:p-8 lg:p-10">
         {/* <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" /> */}
         <div className="text-center">
