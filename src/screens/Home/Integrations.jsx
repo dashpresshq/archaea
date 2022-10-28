@@ -111,6 +111,7 @@ export function Integrations() {
           </div>
           <div className="text-center">
             <svg
+              className="mt-3"
               width="100px"
               height="100px"
               viewBox="0 0 256 170"
@@ -134,7 +135,7 @@ export function Integrations() {
                 fill="#002B64"
               />
             </svg>
-            <h3 className="mt-3">MariaDB</h3>
+            <h3>MariaDB</h3>
           </div>
           <div className="text-center">
             <svg
