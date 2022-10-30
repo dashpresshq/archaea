@@ -1,9 +1,6 @@
 import React from "react";
-import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 
 export function Intro() {
-  const { siteConfig } = useDocusaurusContext();
-
   return (
     <section className="bg-gray-50 dark:bg-gray-800">
       <div className="max-w-screen-xl px-4 py-8 mx-auto space-y-12 lg:space-y-20 lg:py-24 lg:px-6">
@@ -61,14 +58,14 @@ export function Intro() {
           </div>
           <img
             className="hidden w-full mb-4 rounded-lg lg:mb-0 lg:flex"
-            src={`${siteConfig.baseUrl}/img/features/1.png`}
+            src={`/img/features/1.png`}
             alt="dashboard feature image"
           />
         </div>
         <div className="items-center gap-8 lg:grid lg:grid-cols-2 xl:gap-16">
           <img
             className="hidden w-full mb-4 rounded-lg lg:mb-0 lg:flex"
-            src={`${siteConfig.baseUrl}/img/features/2.png`}
+            src={`/img/features/2.png`}
             alt="feature image 2"
           />
           <div className="text-gray-500 sm:text-lg dark:text-gray-400">

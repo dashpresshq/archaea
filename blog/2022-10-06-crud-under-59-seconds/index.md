@@ -29,6 +29,6 @@ Other features include:
 - Views
 - Intuitive dashboard builder
 
-You can always refer to the [documentation](https://hadmean.github.io/hadmean/docs/intro) to get the best out of Hadmean and join our [discord server](https://discord.gg/aV6DxwXhzN) to interact with the community.
+You can always refer to the [documentation](https://hadmean.com/docs/intro) to get the best out of Hadmean and join our [discord server](https://discord.gg/aV6DxwXhzN) to interact with the community.
 
 Start building your admin apps with Hadmean today! If you like this project and found this article helpful, please share and leave a star on [Github](https://github.com/hadmean/hadmean).

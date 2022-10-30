@@ -9,7 +9,7 @@ const config = {
   title: "Hadmean",
   tagline:
     "Hadmean is an internal tool generator. It is language agnostic, schema driven, extremely customizable, fully featured, user-friendly and has just one installation step.",
-  url: "http://hadmean.com",
+  url: "https://hadmean.com",
   baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
@@ -30,7 +30,7 @@ const config = {
 
   plugins: [
     require.resolve("@cmfcmf/docusaurus-search-local"),
-    async function myPlugin(context, options) {
+    async function myPlugin() {
       return {
         name: "docusaurus-tailwindcss",
         configurePostCss(postcssOptions) {

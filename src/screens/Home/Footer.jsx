@@ -1,11 +1,9 @@
 import React from "react";
-import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import Link from "@docusaurus/Link";
 import { SITE_LINKS } from "../../constants";
 import { useSchemeMode } from "../../hooks/useSchemeMode";
 
 export function Footer() {
-  const { siteConfig } = useDocusaurusContext();
   const schemeMode = useSchemeMode();
 
   return (
@@ -19,9 +17,7 @@ export function Footer() {
           >
             <img
               className="h-6 mr-3 sm:h-9"
-              src={`${siteConfig.baseUrl}/img/${
-                schemeMode === "dark" ? "logo-white" : "logo"
-              }.png`}
+              src={`/img/${schemeMode === "dark" ? "logo-white" : "logo"}.png`}
               alt="Hadmean logo"
             />
           </a>

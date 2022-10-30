@@ -68,7 +68,7 @@ You should now be able to see the application running at [http://locahost:3000](
 
 To get a broad overview of how it works, watch a [quick demo](https://github.com/hadmean/hadmean#quick-demo).
 
-You can always refer to the [documentation](https://hadmean.github.io/hadmean/docs/intro) to get the best out of Hadmean and join our [discord server](https://discord.gg/aV6DxwXhzN) to interact with the community.
+You can always refer to the [documentation](https://hadmean.com) to get the best out of Hadmean and join our [discord server](https://discord.gg/aV6DxwXhzN) to interact with the community.
 
 ## Wrapping up
 As a final note, this is just the beginning! We are optimistic about what the future holds, with several other exciting features in the pipeline. Hadmean is here to stay, and we'll keep executing and serving our users the latest updates.
