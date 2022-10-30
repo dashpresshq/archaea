@@ -1,5 +1,6 @@
 import React from "react";
 import Link from "@docusaurus/Link";
+import { SITE_LINKS } from "../../constants";
 
 export function Hero() {
   return (
@@ -34,7 +35,7 @@ export function Hero() {
             </Link>
             <Link
               target="_blank"
-              href="https://hadmean-demo.up.railway.app"
+              href={SITE_LINKS.DEMO}
               className="inline-flex items-center justify-center w-full px-5 py-3 text-sm font-medium text-center text-gray-900 border border-gray-200 rounded-lg sm:w-auto hover:bg-white-100 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:bg-white dark:focus:ring-gray-800"
             >
               <svg

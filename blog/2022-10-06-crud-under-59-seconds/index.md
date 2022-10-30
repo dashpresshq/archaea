@@ -14,7 +14,7 @@ Then go to [http://localhost:3000](http://localhost:3000) where you will be aske
 
 [Hadmean](https://github.com/hadmean/hadmean) is not just a CRUD builder, it is fully an internal tool generator. It might be simple to install but it has tons of features and is entirely customizable.
 
-[Here](https://hadmean-demo.up.railway.app/) is a demo application built in under 59 seconds.
+[Here](https://demo.hadmean.com) is a demo application built in under 59 seconds.
 
 Other features include:
 - Authentication

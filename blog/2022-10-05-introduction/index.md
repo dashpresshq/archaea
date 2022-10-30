@@ -64,7 +64,7 @@ npx hadmean@latest
 ```
 You should now be able to see the application running at [http://locahost:3000](http://locahost:3000) where you will be asked to provide your DB credentials and voila your admin app is fully set up.
 
-[Here](https://hadmean-demo.up.railway.app/) is a link to a demo application built with Hadmean in under 1 minute.
+[Here](https://demo.hadmean.com) is a link to a demo application built with Hadmean in under 1 minute.
 
 To get a broad overview of how it works, watch a [quick demo](https://github.com/hadmean/hadmean#quick-demo).
 
