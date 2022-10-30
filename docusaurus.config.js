@@ -9,8 +9,8 @@ const config = {
   title: "Hadmean",
   tagline:
     "Hadmean is an internal tool generator. It is language agnostic, schema driven, extremely customizable, fully featured, user-friendly and has just one installation step.",
-  url: "https://hadmean.github.io",
-  baseUrl: "/hadmean/",
+  url: "http://hadmean.com",
+  baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.ico",
