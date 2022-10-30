@@ -80,8 +80,8 @@ export function Integrations() {
                   y2="70.4099"
                   gradientUnits="userSpaceOnUse"
                 >
-                  <stop stop-color="#909CA9" />
-                  <stop offset="1" stop-color="#EDEDEE" />
+                  <stop stopColor="#909CA9" />
+                  <stop offset="1" stopColor="#EDEDEE" />
                 </linearGradient>
                 <linearGradient
                   id="paint1_linear"
@@ -91,8 +91,8 @@ export function Integrations() {
                   y2="9.08371"
                   gradientUnits="userSpaceOnUse"
                 >
-                  <stop stop-color="#939FAB" />
-                  <stop offset="1" stop-color="#DCDEE1" />
+                  <stop stopColor="#939FAB" />
+                  <stop offset="1" stopColor="#DCDEE1" />
                 </linearGradient>
                 <radialGradient
                   id="paint2_radial"
@@ -102,8 +102,8 @@ export function Integrations() {
                   gradientUnits="userSpaceOnUse"
                   gradientTransform="translate(43.3678 34.8348) rotate(-171.401) scale(39.1698 78.23)"
                 >
-                  <stop stop-color="#EE352C" />
-                  <stop offset="1" stop-color="#A91D22" />
+                  <stop stopColor="#EE352C" />
+                  <stop offset="1" stopColor="#A91D22" />
                 </radialGradient>
               </defs>
             </svg>
@@ -153,9 +153,9 @@ export function Integrations() {
                   id="A"
                   gradientUnits="userSpaceOnUse"
                 >
-                  <stop stop-color="#97d9f6" offset="0%" />
-                  <stop stop-color="#0f80cc" offset="92.024%" />
-                  <stop stop-color="#0f80cc" offset="100%" />
+                  <stop stopColor="#97d9f6" offset="0%" />
+                  <stop stopColor="#0f80cc" offset="92.024%" />
+                  <stop stopColor="#0f80cc" offset="100%" />
                 </linearGradient>
               </defs>
               <path
