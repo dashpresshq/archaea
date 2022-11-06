@@ -16,27 +16,27 @@ import { Integrations } from "./Integrations";
 
 import "./style.css";
 
+const title = "Hadmean - Generate powerful admin apps with ease in seconds";
+
 function HomeScreenImpl() {
   const { siteConfig } = useDocusaurusContext();
 
   return (
     <>
       <Head>
-        <title>{`Hadmean - The simplest and most efficient no-code internal tool generator`}</title>
-        <meta
-          name="title"
-          content="Hadmean - The simplest and most efficient no-code internal tool generator"
-        />
+        <title>{title}</title>
+        <meta name="title" content={title} />
         <meta name="description" content={siteConfig.tagline} />
         <meta property="og:site_name" content="Hadmean" />
+        <meta property="og:title" content={title} />
         <meta
           property="og:image"
-          content="https://themesberg.s3.us-east-2.amazonaws.com/public/github/landwind/og-image.png"
+          content="https://hadmean.com/img/og-image.png"
         />
+        <meta property="og:description" content={siteConfig.tagline} />
         <meta name="twitter:card" content="summary" />
         <meta name="twitter:site" content="@hadmeanHQ" />
         <meta name="twitter:creator" content="@hadmeanHQ" />
-
         <link
           rel="apple-touch-icon"
           sizes="180x180"

@@ -7,8 +7,8 @@ export function Intro() {
         <div className="items-center gap-8 lg:grid lg:grid-cols-2 xl:gap-16">
           <div className="text-gray-500 sm:text-lg dark:text-gray-400">
             <h2 className="mb-4 text-3xl font-extrabold tracking-tight text-gray-900 dark:text-white">
-              Your precious engineering resources should be building exciting
-              features not boring internal apps.
+              Your precious engineering resources should focus on exciting
+              features not building or maintaining admin apps.
             </h2>
             <p className="mb-8 font-light lg:text-xl">
               Your database already has good information on what your internal
