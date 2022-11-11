@@ -20,6 +20,8 @@ The objects available to you are
      formValues: Record<string, string>,
      // All the route params
      routeParams: Record<string, string>,
+     // Whether the action is for create or for update
+     action: "update" | "create" , 
      // The user authenticated profile
      auth: {
           // The Hadmean profile name
