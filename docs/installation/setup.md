@@ -7,7 +7,7 @@ sidebar_position: 2
 1.  Create a new folder then run
 
 ```bash
-npx hadmean@latest 
+npx hadmean 
 ```
 
 2. Go to [http://locahost:3000](http:localhost:3000) to see your fully functional internal tool
@@ -27,7 +27,7 @@ Here are some of the questions we get asked when users are bewildered by the sim
   <summary>Where does Hadmean store the credentials and account details</summary>
   <div>
     <p>
-    Hadmean by default stores all configuration in JSON files in the same folder you are running the `npx hadmean@latest` command.
+    Hadmean by default stores all configuration in JSON files in the same folder you are running the `npx hadmean` command.
     <br />
     <br />
     You can set it to be stored in `memory`, `database` or `redis`. More on this in the next section.
@@ -49,7 +49,7 @@ Here are some of the questions we get asked when users are bewildered by the sim
   <summary>How do I get future updates </summary>
   <div>
     <p>
-      As long as you use `npx hadmean@latest` then `npx` will always check for updates and use the latest to run the application
+      As long as you use `npx hadmean` then `npx` will always check for updates and use the latest to run the application
       so you will always be running the latest version of Hadmean.
     <br />
     <br />
@@ -62,7 +62,7 @@ Here are some of the questions we get asked when users are bewildered by the sim
   <summary>How can I create a new Hadmean Project</summary>
   <div>
     <p>
-      Create a new folder and run `npx hadmean@latest` there.
+      Create a new folder and run `npx hadmean` there.
     </p>
   </div>
 </details>
@@ -77,10 +77,10 @@ Here are some of the questions we get asked when users are bewildered by the sim
 </details>
 
 <details>
-  <summary>After running `npx hadmean@latest` how do I run the application again </summary>
+  <summary>After running `npx hadmean` how do I run the application again </summary>
   <div>
     <p>
-     `cd path/to/project/folder && npx hadmean@latest`
+     `cd path/to/project/folder && npx hadmean`
     </p>
   </div>
 </details>

@@ -31,7 +31,7 @@ Hadmean approaches internal tool generation by introspecting your database and b
 ## Features
 Below are some of the top-rated features of Hadmean that make it the best platform for internal tool generation.
 
-**Easy to install:** Hadmean has one of the easiest installation processes for such a robust tool. It requires just one command `npx hadmean@latest` to get it up and running.
+**Easy to install:** Hadmean has one of the easiest installation processes for such a robust tool. It requires just one command `npx hadmean` to get it up and running.
 
 **Easy to use:** There is no technical knowledge required to use Hadmean as it is a visual tool hence there is almost zero learning curve.
 
@@ -60,7 +60,7 @@ To get started, you will need to have [Node.js](https://nodejs.org/en/download/)
 Then run the following command to get it started
 
 ```bash
-npx hadmean@latest
+npx hadmean
 ```
 You should now be able to see the application running at [http://locahost:3000](http://locahost:3000) where you will be asked to provide your DB credentials and voila your admin app is fully set up.
 

@@ -8,7 +8,7 @@ Hadmean is an open-source internal tool generator that builds your admin interfa
 ## What
 Building admin apps is mostly a chore for developers and we tend to find the easiest way to build them, sometimes delegating it to the juniors of the teams.
 
-With Hadmean, you set up your admin interface as fast as you can type `npx hadmean@latest` and your DB credentials.
+With Hadmean, you set up your admin interface as fast as you can type `npx hadmean` and your DB credentials.
 
 It is extremely customizable as it gives you a programmatic interface when your requirements are very unique. 
 

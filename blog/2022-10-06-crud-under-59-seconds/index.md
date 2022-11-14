@@ -7,7 +7,7 @@ tags: [introduction]
 For the shortest tutorial on building things, the only step for you is to run
 
 ```js
-npx hadmean@latest
+npx hadmean
 ```
 
 Then go to [http://localhost:3000](http://localhost:3000) where you will be asked for your DB credentials and voila, You can start CRUDing your database. There is no Javascript, or SQL, or drag-and-drop tutorial needed to get started.

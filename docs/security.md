@@ -45,5 +45,5 @@ We use React and we don't `dangerouslySetInnerHTML` for anything.
 We welcome all vulnerability disclosures to `security@hadmean.com` and we prioritize all security fixes over all other kinds of work.
 
 :::info
-You will always be running the latest version of Hadmean as long as you use `npx hadmean@latest` to run the application.
+You will always be running the latest version of Hadmean as long as you use `npx hadmean` to run the application.
 :::

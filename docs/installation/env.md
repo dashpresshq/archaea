@@ -4,7 +4,7 @@ sidebar_position: 3
 
 # Environment Variables
 
-Running the `npx hadmean@latest` command for the first time on a project will generate a `.env.local` file there, which will look like this
+Running the `npx hadmean` command for the first time on a project will generate a `.env.local` file there, which will look like this
 
 ```bash title=".env.local"
 CONFIG_ADAPTOR=json-file
