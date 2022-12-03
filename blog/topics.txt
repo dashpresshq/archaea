@@ -1,2 +1,14 @@
-Why you should be write unit-test less often
-Credentials, configs and constants, When to use them
+Credentials, environment variables and constants, When to use them
+How to design a good database
+Flexibility is not a feature, it is a bug
+Why you shouls write only simple software
+Controllers, Services, Repositories, What do they do
+RDBMS Relationships
+What is ACID
+Correctness is an underrated feature
+How to know you are writing bad tests
+Code coverage should be a guide not a rule
+The ART of good code comments
+How to write a good modern form
+Iterations in Javascript
+Why you should be a ploygot and remain a ploygot

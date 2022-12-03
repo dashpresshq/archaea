@@ -188,21 +188,3 @@ And as you might have guessed you can combine it all
           createdById: JSON.parse($.auth.systemProfile).userId
      }
 ```
-
-## After Submit
-After submit will be called after the form has been submitted successfully so  you can do things like calling an HTTP endpoint to trigger a workflow
-
-:::info
- This code will be run on the client, So be careful as to what you paste here, Don't pass along any secrets
- We know this is in-convenience and we are currently working on `Actions` which will be a safer way of doing this
- So fingers crossed while we work on that
-:::
-
-```js
-/**
- * Call an external API after the form is submitted
- */
-
-fetch("https://my-api.com/", { method: "POST", body: JSON.stringify($.formValues) })
-
-```

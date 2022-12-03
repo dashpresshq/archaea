@@ -8,8 +8,9 @@ import { CallToAction } from "./CallToAction";
 import { Faq } from "./Faq";
 import { Testimonial } from "./Testimonial";
 import { Features } from "./Features";
+import { Actions } from "./Actions";
 import { Intro } from "./Intro";
-import { UsedBy } from "./UsedBy";
+// import { UsedBy } from "./UsedBy";
 import { Hero } from "./Hero";
 import { Header } from "./Header";
 import { Integrations } from "./Integrations";
@@ -58,10 +59,11 @@ function HomeScreenImpl() {
       </Head>
       <Header />
       <Hero />
-      <UsedBy />
+      {/* <UsedBy /> */}
       <Intro />
       <Features />
       <Integrations />
+      <Actions />
       <Faq />
       <Testimonial />
       {/* <Pricing /> */}

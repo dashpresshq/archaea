@@ -4,7 +4,7 @@ import Link from "@docusaurus/Link";
 export function Integrations() {
   return (
     <section className="bg-gray-50 dark:bg-gray-800">
-      <div className="max-w-screen-xl px-4 p-8 mx-auto lg:pb-16">
+      <div className="max-w-screen-xl px-4 p-8 mx-auto">
         <h2 className="m-6 text-3xl font-extrabold tracking-tight text-center text-gray-900 lg:m-8 lg:text-3xl dark:text-white">
           Supported Databases
         </h2>
@@ -195,26 +195,6 @@ export function Integrations() {
             </svg>
             <h3 className="mt-3">CockroachDB</h3>
           </div>
-        </div>
-        <div className="pt-6 text-center mt-6 space-y-4 border-t border-gray-200 dark:border-gray-700">
-          <Link
-            href="https://github.com/orgs/hadmean/projects/1/views/4"
-            className="inline-flex items-center text-base font-medium text-primary hover:text-primary dark:text-primary-light dark:hover:text-primary"
-          >
-            Check Upcoming Integrations
-            <svg
-              className="w-5 h-5 ml-1"
-              fill="currentColor"
-              viewBox="0 0 20 20"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                fillRule="evenodd"
-                d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
-                clipRule="evenodd"
-              ></path>
-            </svg>
-          </Link>
         </div>
       </div>
     </section>
