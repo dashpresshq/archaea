@@ -1,14 +1,85 @@
-Credentials, environment variables and constants, When to use them
 How to design a good database
-Flexibility is not a feature, it is a bug
-Why you shouls write only simple software
-Controllers, Services, Repositories, What do they do
 RDBMS Relationships
 What is ACID
-Correctness is an underrated feature
 How to know you are writing bad tests
-Code coverage should be a guide not a rule
 The ART of good code comments
 How to write a good modern form
 Iterations in Javascript
-Why you should be a ploygot and remain a ploygot
+Design good software => Hide away complexities
+It is not enough be a software engineer, You also need to be a product engineer
+Simple softwares are underated.
+How to generate admin apps in seconds
+/*
+Credentials, environment variables and constants, When to use them
+------------------------------------------------------------
+
+In software engineering, the terms "credentials," "environment variables," and "constants" refer to different mechanisms for storing and managing data that is used by a software program. These mechanisms are commonly used to store sensitive information such as passwords and API keys, to configure the behavior of a program, and to define values that are used throughout the codebase.
+
+Credentials are a type of data that is used to authenticate a user or a service to a system. They might, for example, include a username and password that is used to log in to an application, or an API key that is used to access a web service. Credentials are typically considered sensitive, and should be stored in a secure manner to prevent unauthorized access.
+
+Environment variables are a type of data that is used to configure the behavior of a software program. They might, for example, be used to specify the location of a database or other external resource that the program relies on, or to enable or disable certain features of the program. Environment variables are typically set outside of the codebase, and can be used to customize the behavior of the program without the need to modify the code itself.
+
+Constants are a type of data that is defined in the codebase and cannot be changed at runtime. They are typically used to define values that are used throughout the codebase, such as the names of database tables or the values of configuration parameters. Constants can help to improve the readability and maintainability of the code, as they provide a consistent way to refer to values that are used frequently.
+
+When deciding which mechanism to use for storing and managing data, it is important to consider the sensitivity of the data and the intended use of the data. Credentials should always be stored securely, and should only be used for authentication purposes. Environment variables are a good choice for data that needs to be configured at runtime, and constants are a good choice for data that is used frequently throughout the codebase.
+/*
+
+/*
+Correctness in Software engineering is an underrated feature
+------------------------------------------------------------
+Correctness in software engineering is an often overlooked aspect of the development process, but it is crucial for the success of any software project. A program that is not correct will not function as intended and will likely cause a range of problems for the users, from minor inconvenience to serious issues such as data loss or security breaches.
+
+One of the key reasons that correctness is so important is that it helps to ensure the reliability of a software program. When a program is correct, it will consistently produce the expected results, even when faced with unexpected inputs or edge cases. This is essential for building trust with users, who need to know that they can rely on the software to perform as advertised.
+
+In addition to improving reliability, correctness also helps to improve the maintainability of software. A program with a high degree of correctness is likely to be easier to understand and modify, as the code will be free from errors and inconsistencies. This makes it easier for other developers to work on the codebase and to make changes or improvements without introducing new bugs.
+
+Another key benefit of correctness in software engineering is that it can help to prevent costly errors and defects. The cost of fixing a bug increases exponentially the later it is discovered in the development process, so catching errors early on is essential for keeping costs under control. By ensuring that a program is correct from the start, developers can avoid the need for expensive and time-consuming debugging and testing later on.
+
+In short, correctness in software engineering is an essential but often underrated feature. It is crucial for the reliability, maintainability, and cost-effectiveness of a software program, and should be a key consideration for any development team.
+*/
+
+/*
+Flexibility is not a feature in software engineering
+----------------------------------------------------
+
+Flexibility is often cited as a desirable quality in software engineering, but it is important to recognize that flexibility is not a feature in and of itself. In fact, too much flexibility can actually be a hindrance to the development and success of a software program.
+
+One of the key reasons that flexibility is not a feature is that it can lead to a lack of focus and direction in the development process. When a software program is designed to be flexible, it may lack a clear purpose or goal, which can make it difficult for the development team to prioritize features and make decisions. This can result in a program that is cluttered and disorganized, which can be confusing and frustrating for users.
+
+Another flexibility issue is that it can make it difficult to ensure the quality of a software program. A program that is designed to be flexible is likely to have a more complex codebase, which can make it more difficult to test and debug. This can result in a program that is prone to errors and defects, which can negatively impact its reliability and usability.
+
+Furthermore, flexibility can also make it difficult to predict and control the costs of a software project. When a program is designed to be flexible, it may require more resources and time to develop, as the development team must account for a wider range of potential features and functionality. This can make it difficult to estimate the cost of the project and to manage the budget effectively.
+
+In short, while flexibility may be a desirable quality in some contexts, it is important to recognize that it is not a feature in software engineering. Too much flexibility can lead to a lack of focus, poor quality, and increased costs, which can hinder the success of a software program.
+*/
+
+/*
+why code coverage should be a guide and not a rule
+----------------------------------------------------
+Code coverage is a measure of how much of a software program's codebase has been executed during testing. It is commonly used as a way to assess the thoroughness of a test suite, with the idea being that a higher code coverage indicates a more comprehensive set of tests.
+
+While code coverage can be a useful tool for evaluating the quality of a test suite, it is important to recognize that it should not be treated as a hard and fast rule. Relying too heavily on code coverage as a measure of quality can be counterproductive.
+
+One of the key reasons that code coverage should not be treated as a rule is that it does not necessarily reflect the quality of a test suite. High code coverage does not necessarily mean that all of the important aspects of a program have been thoroughly tested, and a low code coverage does not necessarily mean that the test suite is inadequate. Instead, code coverage should be seen as a guide, not a definitive measure of quality.
+
+Another issue with treating code coverage, as a rule, is that it can lead to a focus on achieving high coverage at the expense of other important considerations. For example, developers may be tempted to write tests that are designed to increase code coverage, rather than tests that are focused on uncovering real bugs and defects. This can result in a test suite that is bloated and ineffective, as it may be missing important tests or may include unnecessary tests.
+
+Furthermore, treating code coverage, as a rule, can also lead to a lack of flexibility in the testing process. If developers are focused on achieving a certain code coverage threshold, they may be unwilling to make changes to the test suite that would improve its effectiveness, even if those changes result in a temporary reduction in code coverage. This can hinder the ability of the test suite to adapt to changes in the codebase and to uncover new bugs and defects.
+
+In short, code coverage can be a useful tool for evaluating the quality of a test suite, but it should not be treated as a rule. Instead, it should be seen as a guide, and developers should be free to adapt and modify their test suite as needed to ensure that it is thorough and effective.
+
+*/
+
+/*
+What are Controllers, Services, and Repositories, and What do they do?
+
+In software engineering, the terms "controllers," "services," and "repositories" refer to design patterns that are commonly used to organize and structure the codebase of a software program. These patterns are designed to help developers write maintainable, modular, and scalable code, and are commonly used in object-oriented programming languages.
+
+Controllers are a type of design pattern that is used to handle user input and to coordinate the flow of data between different parts of a software program. In a typical web application, for example, a controller might receive an HTTP request from a user, fetch data from a database, and then pass that data to a view for rendering. Controllers are often used to implement the business logic of an application and are typically the primary entry point for user interactions.
+
+Services are another type of design pattern that is used to abstract complex or reusable functionality into standalone units. A service might, for example, implement a specific algorithm or process that is used in multiple parts of an application, or it might provide a consistent interface for accessing a shared resource such as a database or a cache. Services are typically designed to be easy to test and to reuse, and can help to reduce duplication and improve the modularity of a codebase.
+
+Repositories are a type of design pattern that is used to abstract the data access layer of an application. A repository might, for example, provide a consistent interface for querying a database or other data store, and might implement common functionality such as pagination and filtering. Repositories are often used to decouple the business logic of an application from the underlying data storage mechanism, which can improve the maintainability and testability of the codebase.
+
+In short, controllers, services, and repositories are design patterns that are commonly used in software engineering to organize and structure the codebase of a software program. They are designed to help developers write maintainable, modular, and scalable code, and are an essential part of many modern software development practices.
+*/
