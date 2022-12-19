@@ -4,15 +4,17 @@ sidebar_position: 2
 
 # Setup
 
-1.  Create a new folder then run
+1.  Have [Node.js](https://nodejs.org/en/download/) installed
+
+2.  Create a new folder then run
 
 ```bash
 npx hadmean 
 ```
 
-2. Go to [http://locahost:3000](http:localhost:3000) to see your fully functional internal tool
+3. Go to [http://locahost:3000](http:localhost:3000) to see your fully functional internal tool
 
-3. For the first time you will be asked to provide your database credentials and create your root admin account
+4. For the first time you will be asked to provide your database credentials and create your root admin account
 
 :::tip Is that all?
 <p>Yes!, No SQL, No Javascript, No tutorial and all under 59 seconds!</p>

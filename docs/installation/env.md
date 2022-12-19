@@ -13,7 +13,7 @@ CONFIG_ADAPTOR_CONNECTION_STRING=PLACE_HOLDER_CONFIG_ADAPTOR_CONNECTION_STRING
 CACHE_ADAPTOR=memory
 CACHE_ADAPTOR_CONNECTION_STRING=PLACE_HOLDER_CACHE_ADAPTOR_CONNECTION_STRING
 
-ENCRYPTION_KEY=<SOME_RANDOM_STRING>
+CREDENTIALS_ENCRYPTION_KEY=<SOME_RANDOM_STRING>
 AUTH_TOKEN_KEY=<SOME_RANDOM_STRING>
 ```
 
@@ -62,7 +62,7 @@ This leads us to the only other option `redis`
 ## CACHE_ADAPTOR_CONNECTION_STRING
 if you want to use `redis` in the option above the `CACHE_ADAPTOR_CONNECTION_STRING` takes in the connection string to your URL
 
-## ENCRYPTION_KEY & AUTH_TOKEN_KEY
+## CREDENTIALS_ENCRYPTION_KEY & AUTH_TOKEN_KEY
 We need an encryption key to encrypt your database credentials so that if even it gets leaked, attackers can't do any harm with it.
 
 We also need an authentication key to encode your auth tokens securely.

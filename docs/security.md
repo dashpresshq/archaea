@@ -11,7 +11,7 @@ sidebar_position: 2
 
 ## Encryption at Rest
 
-All credentials provided in the application are encrypted at rest using `aes-256-gcm` with the `ENCRYPTION_KEY` in your `.env`
+All credentials provided in the application are encrypted at rest using `aes-256-gcm` with the `CREDENTIALS_ENCRYPTION_KEY` in your `.env`
 
 ## CSRF 
 We store your auth tokens in localstorage, so CSRF is not possible
