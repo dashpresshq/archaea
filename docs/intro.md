@@ -43,7 +43,7 @@ Hadmean will not and will never have an interface to change the structure of you
 Hadmean is built for internal use, It is not built for end-users but rather internal users. This means no fancy editor to add a class to every element, no template for headers, footers, no page creator etc.
 
 ### API backend
-Hadmean will not expose a method to extend the backend. i.e you will not be able to create a new API route with it, meaning if you need to have hooks for other business needs, then you will have to create a seperate API backend for that
+Hadmean will not expose a method to extend the backend. i.e you will not be able to create a new API route with it, meaning if you need to have hooks for other business needs, then you will have to create a seperate API backend for that. Hadmean will not be providing functionality for schedulers
 
 ### CMS
 Hadmean doesn't have a default data or data structure, It doesn't have any workflows. Hadmean only works with the data you already have.

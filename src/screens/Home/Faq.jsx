@@ -24,6 +24,40 @@ const FAQS = [
     never have an interface to change the structure of your
     database.`,
   },
+  {
+    question: "Do I need coding knowledge to use this Hadmean?",
+    answer:
+      "No, You can use Hadmean without any coding knowledge but having some Javascript knowledge will help you get more customization for your forms and some SQL knowledge will be beneficial when creating dashboard widgets.",
+  },
+  {
+    question: "Is there a free trial",
+    answer:
+      "No, as we have a free version that is freely available, the PRO plugins are paid but you see it in action on the demo site.",
+  },
+  {
+    question: "What are plugins",
+    answer: `Plugins are a way to extend the functionality of Hadmean. You can find more information about plugins in our documentation.`,
+  },
+  {
+    question: "How is the price determined?",
+    answer:
+      "Hadmean is basically free but when you need to supercharge your app with plugins, you can buy them from the marketplace. The plugins are priced individually and you can buy them as you need them.",
+  },
+  {
+    question: "What happens if I stop paying?",
+    answer:
+      "When your plugin licenses expires you will have to run `npx hadmean` to continue using the free version of Hadmean. You will still be able to access your data and use the free plugins.",
+  },
+  {
+    question: "Does my app need to be connected to verify the license",
+    answer:
+      "No, all the license verification is done on the app and your app will not need to be connected to the internet to verify.",
+  },
+  {
+    question: "Can I use my license on another domain",
+    answer:
+      "Sadly No, since the license verification is done locally and they is no way to invalidate any license unless it expires, this means all license are tried to a specific domain.",
+  },
 ].map((faq, index) => ({ id: index, ...faq }));
 
 export function Faq() {

@@ -1,5 +1,4 @@
 import React from "react";
-import Link from "@docusaurus/Link";
 
 export function Integrations() {
   return (

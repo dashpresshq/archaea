@@ -6,7 +6,7 @@ export function Hero() {
   return (
     <section className="bg-white dark:bg-gray-900">
       <div className="grid max-w-screen-xl px-4 pt-20 pb-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12 lg:pt-28">
-        <div className="mr-auto place-self-center lg:col-span-7">
+        <div className="mr-auto place-self-center lg:col-span-6">
           <h1 className="max-w-2xl mb-4 text-4xl font-extrabold leading-none tracking-tight md:text-5xl xl:text-6xl dark:text-white">
             Generate admin apps with ease in seconds
           </h1>
@@ -23,15 +23,7 @@ export function Hero() {
               to="/docs/installation/setup"
               className="inline-flex text-white items-center justify-center bg-primary hover:bg-primary-dark hover:text-white w-full px-5 py-3 text-sm font-medium text-center border border-gray-200 rounded-lg sm:w-auto focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:focus:ring-gray-800"
             >
-              <svg
-                className="w-4 h-4 mr-2 text-white dark:text-gray-400"
-                xmlns="http://www.w3.org/2000/svg"
-                fill="currentColor"
-                viewBox="0 0 20 20"
-              >
-                <path d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"></path>
-              </svg>{" "}
-              Get Started
+              $ npx hadmean
             </Link>
             <Link
               target="_blank"
@@ -52,8 +44,15 @@ export function Hero() {
             </Link>
           </div>
         </div>
-        <div className="hidden lg:mt-0 lg:col-span-5 lg:flex">
-          <img src={`/img/hero.png`} alt="hero image" />
+        <div className="hidden lg:mt-0 lg:col-span-6 lg:flex overflow-hidden">
+          <img
+            src={`/img/hero.png`}
+            alt="hero image"
+            className="mb-[-7%] rounded-xl shadow-2xl ring-1 ring-gray-900/10"
+          />
+          <div class="relative" aria-hidden="true">
+            <div class="absolute -inset-x-20 bottom-0 bg-gradient-to-t from-white pt-[7%]"></div>
+          </div>
         </div>
       </div>
     </section>

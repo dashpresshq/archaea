@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Link from "@docusaurus/Link";
-import { SITE_LINKS } from "../../constants";
-import { useSchemeMode } from "../../hooks/useSchemeMode";
+import { SITE_LINKS } from "../../../constants";
+import { useSchemeMode } from "../../../hooks/useSchemeMode";
 import clsx from "clsx";
 
 export function Header() {
@@ -118,7 +118,6 @@ export function Header() {
                 <Link
                   href="/"
                   className="block py-2 pl-3 pr-4 text-white bg-primary rounded lg:bg-transparent lg:text-primary dark:lg:text-primary-light  lg:p-0 dark:text-white"
-                  aria-current="page"
                 >
                   Home
                 </Link>

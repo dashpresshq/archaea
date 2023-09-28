@@ -1,14 +1,21 @@
+Annoucing a new way to build admin apps
+
 How to design a good database
 RDBMS Relationships
 What is ACID
+pagination
 How to know you are writing bad tests
 The ART of good code comments
 How to write a good modern form
 Iterations in Javascript
+Intro to web accessiblity
 Design good software => Hide away complexities
 It is not enough be a software engineer, You also need to be a product engineer
 Simple softwares are underated.
 How to generate admin apps in seconds
+https://www.youtube.com/watch?v=ztHopE5Wnpc => Database course
+
+Why testid should be your last resort and that you can use instead
 /*
 Credentials, environment variables and constants, When to use them
 ------------------------------------------------------------
@@ -83,3 +90,7 @@ Repositories are a type of design pattern that is used to abstract the data acce
 
 In short, controllers, services, and repositories are design patterns that are commonly used in software engineering to organize and structure the codebase of a software program. They are designed to help developers write maintainable, modular, and scalable code, and are an essential part of many modern software development practices.
 */
+
+Document roles
+// To get to the second truth, you have to recognize that testing isn’t about quality. Quality comes from the design effort, beginning at the architectural level and continuing down through code design and onto application delivery and operations management. Testing, on the other hand, just proves that software is “free from defects.” That’s important … but it’s not a measure of quality: “Free from defect” is just the minimum level of acceptability.
+// Very high test coverage

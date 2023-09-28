@@ -1,7 +1,7 @@
 import React from "react";
 import Link from "@docusaurus/Link";
-import { SITE_LINKS } from "../../constants";
-import { useSchemeMode } from "../../hooks/useSchemeMode";
+import { SITE_LINKS } from "../../../constants";
+import { useSchemeMode } from "../../../hooks/useSchemeMode";
 
 export function Footer() {
   const schemeMode = useSchemeMode();
